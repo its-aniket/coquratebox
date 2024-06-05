@@ -18,7 +18,7 @@ const CorporateBanner = () => {
           lg:w-auto lg:text-[20px] lg:pl-[15px] lg:pr-[15px] lg:pt-[10px] lg:pb-[10px]">ENQUIRE NOW</button>
         </div>
       </div>
-      <img className="w-full h-full object-cover" src="./assets/featured3.jpg" alt="" />
+      <img className="w-full h-full object-cover" src="./assets/featured (3).jpg" alt="" />
     </main>
   );
 };

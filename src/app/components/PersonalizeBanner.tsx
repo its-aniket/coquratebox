@@ -9,7 +9,7 @@ const PersonalizeBanner = () => {
         <div>
         <button className="bg-black whitespace-nowrap flex justify-center items-center text-white text-[10px] pl-[10px] pr-[10px] pt-[5px] pb-[5px] rounded-[36px]
           lg:w-auto lg:text-[20px] lg:pl-[15px] lg:pr-[15px] lg:pt-[10px] lg:pb-[10px]
-          transition ease-in-out delay-150 hover:shadow-xl hover:translate-y-1
+          transition ease-in-out delay-150 hover:shadow-xl hover:-translate-y-1
           ">ENQUIRE NOW</button>
        </div>
         <div className="grow">
@@ -21,7 +21,7 @@ const PersonalizeBanner = () => {
         </p>
         </div>
       </div>
-      <img className="w-full h-full object-cover hover:transition-all" src="./assets/featured4.jpg" alt="" />
+      <img className="w-full h-full object-cover hover:transition-all" src="./assets/featured (4).jpg" alt="" />
     </main>
   );
 };

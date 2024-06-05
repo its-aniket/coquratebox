@@ -93,6 +93,32 @@ export const NavLinks = [
       rating:4,
     }
   ]
+  export const herobanner=[
+    {
+      title:`Crafted Memories Captured Forever!`,
+      para:`Personalize your moment with our customized hampers`,
+      src1:"./assets/featured (1).jpg",
+      alt1:"banner image",
+      src2:"./assets/featured (2).jpg",
+      alt2:"banner image 2",
+    },
+    {
+      title:`Crafted Memories Captured Forever!`,
+      para:`Personalize your moment with our customized hampers`,
+      src1:"./assets/featured (3).jpg",
+      alt1:"banner image 3",
+      src2:"./assets/featured (4).jpg",
+      alt2:"banner image 4",
+    },
+    {
+      title:`Crafted Memories Captured Forever!`,
+      para:`Personalize your moment with our customized hampers`,
+      src1:"./assets/featured (5).jpg",
+      alt1:"banner image 5",
+      src2:"./assets/featured (6).jpg",
+      alt2:"banner image 6",
+    }
+  ]
   export const footerLinks = [
     {
       title: 'GIFTS FOR',
