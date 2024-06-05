@@ -1,9 +1,9 @@
 export const NavLinks = [
     { href: '/', key: 'Offering', text: 'Offering' },
-    { href: '/', key: 'Fathers Day', text: 'Fathers Day' },
-    { href: '/', key: 'Corporate Gifting', text: 'Corporate Gifting' },
-    { href: '/', key: 'Personlized Gifting', text: 'Personlized Gifting' },
-    { href: '/', key: 'About Us', text: 'About Us' }
+    { href: '/something', key: 'Fathers Day', text: 'Fathers Day' },
+    { href: '/Corporate', key: 'Corporate Gifting', text: 'Corporate Gifting' },
+    { href: '/Personlized', key: 'Personlized Gifting', text: 'Personlized Gifting' },
+    { href: '/AboutUs', key: 'About Us', text: 'About Us' }
   ];
   export const Announcement = [
     { key: 'Announcement one', text: 'GET 10% OFF ON THIS RAKHI HAMPERS' }
@@ -25,7 +25,74 @@ export const NavLinks = [
     'For her',
     'For him'
   ]
+
+  // <img className="w-full h-full object-cover " src="./assets/MANGO_HAMPER2 (1).jpg" alt="Featured Item 2" />
+  // <img className="w-full h-full object-cover " src="./assets/feartured1.jpg" alt="Featured Item 3" />
+  // <img className="w-full h-full object-cover " src="./assets/featured2.jpg" alt="Featured Item 4" />
+  // <img className="w-full h-full object-cover " src="./assets/featured5.jpg" alt="Featured Item 5" />
+  // <img className="w-full h-full object-cover " src="./assets/featured6.jpg" alt="Featured Item 6" />
+  export const featuredcollection=[
+    {
+      src:"./assets/featured (1).jpg",
+      alt:"Featured Item 1",
+    },
+    {
+      src:"./assets/featured (2).jpg",
+      alt:"Featured Item 2",
+    },
+    {
+      src:"./assets/featured (3).jpg",
+      alt:"Featured Item 3",
+    },
+    {
+      src:"./assets/featured (4).jpg",
+      alt:"Featured Item 4",
+    },
+    {
+      src:"./assets/featured (5).jpg",
+      alt:"Featured Item 5",
+    },
+    {
+      src:"./assets/featured (6).jpg",
+      alt:"Featured Item 6",
+    }
+
+  ]
   
+  export const testimonials =[
+    {
+      companyname: 'foseco',
+      review:`I recently used Coqurate Box for both personal and corporate 
+      gifts and was thoroughly impressed.
+       Their personalized gifts are beautifully crafted and make recipients feel truly special. 
+      The corporate gifts were elegant and left a lasting impression on our clients.`,
+      rating:4,
+    },
+    {
+      companyname: 'foseco',
+      review:`I recently used Coqurate Box for both personal and corporate 
+      gifts and was thoroughly impressed.
+       Their personalized gifts are beautifully crafted and make recipients feel truly special. 
+      The corporate gifts were elegant and left a lasting impression on our clients.`,
+      rating:4,
+    },
+    {
+      companyname: 'Bridgstone',
+      review:`I recently used Coqurate Box for both personal and corporate 
+      gifts and was thoroughly impressed.
+       Their personalized gifts are beautifully crafted and make recipients feel truly special. 
+      The corporate gifts were elegant and left a lasting impression on our clients.`,
+      rating:4,
+    },
+    {
+      companyname: 'Capgemini',
+      review:`I recently used Coqurate Box for both personal and corporate 
+      gifts and was thoroughly impressed.
+       Their personalized gifts are beautifully crafted and make recipients feel truly special. 
+      The corporate gifts were elegant and left a lasting impression on our clients.`,
+      rating:4,
+    }
+  ]
   export const footerLinks = [
     {
       title: 'GIFTS FOR',

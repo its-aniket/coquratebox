@@ -12,17 +12,19 @@ const HeroSection = () => {
           <p className="text-[20px] mt-[8px] w-[308px] ">
             Personalize your moment with our customized hampers
           </p>
-          <button className="bg-black mt-[8px] pl-[26px] pr-[26px] pt-[5px] pb-[5px] rounded-[36px] text-[15px]  text-white lg:pt-3 lg:pb-3 ">
+          <button className="bg-black mt-[8px] pl-[26px] pr-[26px] pt-[5px] pb-[5px] rounded-[36px] text-[15px]  text-white 
+          lg:pt-3 lg:pb-3 
+          transition ease-in-out delay-150 hover:shadow-2xl hover:-translate-y-1">
             shop now
           </button>
         </div>
         <img
-          className="m-0 p-0 w-full h-[600px] block lg:hidden"
+          className="m-0 p-0 w-full h-[600px] block object-cover  lg:hidden"
           src="./BLACKSETWM.jpeg"
           alt=""
         />
         <img
-          className="m-0 p-0 w-full h-[600px] hidden lg:block"
+          className="m-0 p-0 w-full h-[600px] object-cover hidden lg:block"
           src="./pune hamper.jpg"
           alt=""
         />
