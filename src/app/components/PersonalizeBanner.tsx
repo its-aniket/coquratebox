@@ -15,7 +15,7 @@ const PersonalizeBanner = () => {
         <div className="grow">
         <p className="text-[10px] w-full lg:text-[15px]">PERFECT</p>
         <h2 className="w-full text-[15px] lg:text-[20px]">Personalized Gifting</h2>
-        <p className="text-[10px] mt-[8px] w-full lg:text-[25px] ">
+        <p className="text-[10px] mt-[8px] w-full lg:text-[20px] ">
           Your search of perfect gifting ends here. corporate gifting made
           easier.
         </p>
