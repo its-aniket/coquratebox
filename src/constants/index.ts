@@ -91,7 +91,48 @@ export const NavLinks = [
        Their personalized gifts are beautifully crafted and make recipients feel truly special. 
       The corporate gifts were elegant and left a lasting impression on our clients.`,
       rating:4,
+    },
+    {
+      companyname: 'Capgemini',
+      review:`I recently used Coqurate Box for both personal and corporate 
+      gifts and was thoroughly impressed.
+       Their personalized gifts are beautifully crafted and make recipients feel truly special. 
+      The corporate gifts were elegant and left a lasting impression on our clients.`,
+      rating:4,
+    },
+    {
+      companyname: 'Capgemini',
+      review:`I recently used Coqurate Box for both personal and corporate 
+      gifts and was thoroughly impressed.
+       Their personalized gifts are beautifully crafted and make recipients feel truly special. 
+      The corporate gifts were elegant and left a lasting impression on our clients.`,
+      rating:4,
+    },
+    {
+      companyname: 'Capgemini',
+      review:`I recently used Coqurate Box for both personal and corporate 
+      gifts and was thoroughly impressed.
+       Their personalized gifts are beautifully crafted and make recipients feel truly special. 
+      The corporate gifts were elegant and left a lasting impression on our clients.`,
+      rating:4,
+    },
+    {
+      companyname: 'Capgemini',
+      review:`I recently used Coqurate Box for both personal and corporate 
+      gifts and was thoroughly impressed.
+       Their personalized gifts are beautifully crafted and make recipients feel truly special. 
+      The corporate gifts were elegant and left a lasting impression on our clients.`,
+      rating:4,
+    },
+    {
+      companyname: 'Capgemini',
+      review:`I recently used Coqurate Box for both personal and corporate 
+      gifts and was thoroughly impressed.
+       Their personalized gifts are beautifully crafted and make recipients feel truly special. 
+      The corporate gifts were elegant and left a lasting impression on our clients.`,
+      rating:4,
     }
+
   ]
   export const herobanner=[
     {
