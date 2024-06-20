@@ -71,7 +71,7 @@ const ContactUs = () => {
           </p>
         </div>
         <form
-            ref={formRef}
+           
             onSubmit={handleSubmit}
             className="mt-3 flex flex-col gap-8"
           >
@@ -119,7 +119,7 @@ const ContactUs = () => {
             <label className="flex flex-col">
               <span className="text-black text-[15px] font-medium mb-1">Your message</span>
               <textarea
-                rows="3"
+                rows={3}
                 name="message"
                 value={form.message}
                 onChange={handleChange}
