@@ -59,7 +59,7 @@ const ContactUs = () => {
       });
   };
   return (
-    <div className=" flex flex-col w-[100%] h-auto bg-[#E9DEF4] sm:flex-row">
+    <div className=" mt-5 flex flex-col w-[100%] h-auto bg-[#E9DEF4] sm:flex-row">
       <div className="flex flex-col w-[100%] h-auto p-5 sm:w-[50%] sm:h-auto sm:p-10">
         <div className="text-center sm:text-left">
           <h2 className={`${pompiere.className} text-[30px] sm:text-[45px]`}>
