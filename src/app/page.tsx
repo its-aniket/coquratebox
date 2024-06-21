@@ -7,6 +7,7 @@ import PersonalizeBanner from "./components/PersonalizeBanner"
 import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import NotableClient from "./components/NotableClient"
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main className="p-0 m-0 ">
@@ -18,6 +19,7 @@ export default function Home() {
       <Testimonials/>
       <NotableClient/>
       <ContactUs/>
+      <Footer/>
     </main>
   );
 }

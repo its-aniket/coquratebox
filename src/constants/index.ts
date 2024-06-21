@@ -160,53 +160,97 @@ export const NavLinks = [
       alt2:"banner image 6",
     }
   ]
+  export const sociallinks =[
+    {
+      alt:"instagram icon",
+      scr:"./assets/instagram.png",
+      href:"/",
+    },
+    {
+      alt:"linkedIn icon",
+      scr:"./assets/linkedin.png",
+      href:"/",
+    },
+    {
+      alt:"Thread icon",
+      scr:"./assets/threads.png",
+      href:"/",
+    },
+  ]
   export const footerLinks = [
+  
     {
       title: 'GIFTS FOR',
       links: [
-        'Birthday',
-        'Anniverssary',
-        'House Warming',
-        'Weddign fever',
-        'New born',
-        'Parents to bee',
-        'For her',
-        'For him'
+        { href: '/', key: 'Birthday', text: 'Birthday' },
+        { href: '/', key: 'Anniverssary', text: 'Anniverssary' },
+        { href: '/', key: 'House Warming', text: 'House Warming' },
+        { href: '/', key: 'Weddign fever', text: 'Weddign fever' },
+        { href: '/', key: 'New born', text: 'New born' },
+        { href: '/', key: 'Parents to bee', text: 'Parents to bee' },
+        { href: '/', key: 'For her', text: 'For her' },
+        { href: '/', key: 'For him', text: 'For him' },
       ],
     },
     {
       title: 'CORPORATE GIFTS',
       links: [
-        'Corporate events',
-        'New joining kit',
-        'Promotion',
-        'Annual day',
-        'Educational institutes',
-        'Retirenment',
-        'Foreign deligates',
+        { href: '/', key: 'Birthday', text: 'Birthday' },
+        { href: '/', key: 'Anniverssary', text: 'Anniverssary' },
+        { href: '/', key: 'House Warming', text: 'House Warming' },
+        { href: '/', key: 'Weddign fever', text: 'Weddign fever' },
+        { href: '/', key: 'New born', text: 'New born' },
+        { href: '/', key: 'Parents to bee', text: 'Parents to bee' },
+        { href: '/', key: 'For her', text: 'For her' },
+        { href: '/', key: 'For him', text: 'For him' },
       ],
     },
     {
-      title: 'COMPANY INFORMATION',
+      title: 'KASLE TARI GIFTS',
       links: [
-        'About us',
-        'contact us',
-        'Terms of service',
-        'Privacy policy',
+        { href: '/', key: 'Birthday', text: 'Birthday' },
+        { href: '/', key: 'Anniverssary', text: 'Anniverssary' },
+        { href: '/', key: 'House Warming', text: 'House Warming' },
+        { href: '/', key: 'Weddign fever', text: 'Weddign fever' },
+        { href: '/', key: 'New born', text: 'New born' },
+        { href: '/', key: 'Parents to bee', text: 'Parents to bee' },
+        { href: '/', key: 'For her', text: 'For her' },
+        { href: '/', key: 'For him', text: 'For him' },
       ],
     },
-    {
-      title: 'SIGN UP AND SAVE',
-      links: [
-        'Subscribe to be upto date, free giveaways and never ending stream of offers',
-      ],
-    },
-    {
-      title: 'CALL US NOW !!',
-      links: [
-        'coqurateboc@gmail.com',
-        '+91 93079 28110',
-      ],
-    },
+    // {
+    //   title: 'CORPORATE GIFTS',
+    //   links: [
+    //     'Corporate events',
+    //     'New joining kit',
+    //     'Promotion',
+    //     'Annual day',
+    //     'Educational institutes',
+    //     'Retirenment',
+    //     'Foreign deligates',
+    //   ],
+    // },
+    // {
+    //   title: 'COMPANY INFORMATION',
+    //   links: [
+    //     'About us',
+    //     'contact us',
+    //     'Terms of service',
+    //     'Privacy policy',
+    //   ],
+    // },
+    // {
+    //   title: 'SIGN UP AND SAVE',
+    //   links: [
+    //     'Subscribe to be upto date, free giveaways and never ending stream of offers',
+    //   ],
+    // },
+    // {
+    //   title: 'CALL US NOW !!',
+    //   links: [
+    //     'coqurateboc@gmail.com',
+    //     '+91 93079 28110',
+    //   ],
+    // },
   
   ];
