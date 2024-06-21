@@ -68,8 +68,8 @@ const Footer = () => {
       </div>
         <div className="w-full h-auto flex flex-col  justify-between items-center p-5 sm:flex-row ">
           <div className="w-full justify-center sm:w-[50%] h-auto flex gap-2 items-center sm:justify-start">
-              {sociallinks.map((link)=>(
-                <div className="w-[30px] h-[30px]">
+              {sociallinks.map((link,index)=>(
+                <div key={index} className="w-[30px] h-[30px]">
                   <a href={link.href}>
                     <img src={link.scr} alt={link.alt} />
                   </a>
