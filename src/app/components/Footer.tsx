@@ -13,7 +13,7 @@ const Footer = () => {
   const [visibleSections, setVisibleSections] = useState({});
 
   // Function to toggle the visibility of a section
-  const toggleSection = (title) => {
+  const toggleSection = (title: string) => {
     setVisibleSections((prevState) => ({
       ...prevState,
       [title]: !prevState[title],
