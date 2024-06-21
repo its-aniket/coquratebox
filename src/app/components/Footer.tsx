@@ -9,8 +9,11 @@ const pompiere = Pompiere({
   weight: "400",
 });
 
+type VisibleSections = {
+  [key: string]: boolean;
+};
 const Footer = () => {
-  const [visibleSections, setVisibleSections] = useState({});
+  const [visibleSections, setVisibleSections] = useState<VisibleSections>({});
 
   // Function to toggle the visibility of a section
   const toggleSection = (title: string) => {
