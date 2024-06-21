@@ -59,8 +59,13 @@ const ContactUs = () => {
       });
   };
   return (
+<<<<<<< HEAD
     <div className="mt-10 flex flex-col w-[100%] h-auto bg-[#E9DEF4] sm:flex-row">
       <div className="flex flex-col w-[100%] h-auto p-10 sm:w-[50%] sm:h-auto sm:p-10">
+=======
+    <div className=" mt-5 flex flex-col w-[100%] h-auto bg-[#E9DEF4] sm:flex-row">
+      <div className="flex flex-col w-[100%] h-auto p-5 sm:w-[50%] sm:h-auto sm:p-10">
+>>>>>>> 77dd1722c6c3d5e4a469996287e18f1963ca4008
         <div className="text-center sm:text-left">
           <h2 className={`${pompiere.className} text-[30px]  tablet:text-[35px] sm:text-[40px]`}>
             We are just a call away!
