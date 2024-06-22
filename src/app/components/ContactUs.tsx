@@ -61,7 +61,7 @@ const ContactUs = () => {
   return (
     <div className="mt-10 flex flex-col w-[100%] h-auto bg-[#E9DEF4] sm:flex-row">
       <div className="flex flex-col w-[100%] h-auto p-10 sm:w-[50%] sm:h-auto sm:p-10">
-        <div className="text-center sm:text-left">
+        <div className="flex flex-col gap-2 text-center sm:text-left">
           <h2 className={`${pompiere.className} text-[30px]  tablet:text-[35px] sm:text-[40px]`}>
             We are just a call away!
           </h2>
@@ -74,7 +74,7 @@ const ContactUs = () => {
         <form
            
             onSubmit={handleSubmit}
-            className="mt-3 flex flex-col gap-8"
+            className="mt-7 flex flex-col gap-8"
           >
             <div className="w-full flex flex-col justify-center">
               <label className="flex flex-col w-full">

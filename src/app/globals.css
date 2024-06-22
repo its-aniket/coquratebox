@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.review-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: 4.5em; /* Adjust based on the number of lines */
+    transition: max-height 2s ease, opacity 0.5s ease;
+    opacity: 1;
+  }
+  
+  .review-text:hover {
+    -webkit-line-clamp: unset;
+    max-height: 100em; /* A large value to ensure the text expands fully */
+    opacity: 1;
+  }
+  
