@@ -32,7 +32,10 @@ const Testimonials = () => {
             },
           }}
           pagination={true}
-          autoplay={true}
+          autoplay={{
+            delay: 5500,
+            disableOnInteraction: false,
+          }}
           modules={[FreeMode, Pagination, Autoplay]}
           speed={1500} 
           cssMode={true}  

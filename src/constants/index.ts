@@ -164,12 +164,12 @@ export const NavLinks = [
     {
       alt:"instagram icon",
       scr:"./assets/instagram.png",
-      href:"/",
+      href:"https://www.instagram.com/coquratebox/",
     },
     {
       alt:"linkedIn icon",
       scr:"./assets/linkedin.png",
-      href:"/",
+      href:"https://www.linkedin.com/company/coqurate-box/posts/?feedView=all",
     },
     {
       alt:"Thread icon",

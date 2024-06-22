@@ -1,8 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { footerLinks,sociallinks } from "@/constants";
+import { footerLinks, sociallinks } from "@/constants";
 import { Pompiere } from "next/font/google";
+import useMedia from 'use-media';
 
 const pompiere = Pompiere({
   subsets: ["latin"],
@@ -12,7 +13,9 @@ const pompiere = Pompiere({
 type VisibleSections = {
   [key: string]: boolean;
 };
+
 const Footer = () => {
+  const isTabletOrLarger = useMedia({ minWidth: 768 }); // Adjust the minWidth based on your breakpoint
   const [visibleSections, setVisibleSections] = useState<VisibleSections>({});
 
   // Function to toggle the visibility of a section
@@ -25,7 +28,7 @@ const Footer = () => {
 
   return (
     <div className="flex flex-col bg-[#E9DEF4] ">
-      <div className="flex flex-col border-t border-black  sm:flex-row">
+      <div className="flex flex-col border-t border-black sm:flex-row">
         <div className="w-[85%] self-center h-full flex justify-center items-center p-10 border-b border-black sm:border-none sm:justify-start sm:items-start">
           <a href="/">
             <img
@@ -47,7 +50,7 @@ const Footer = () => {
             >
               {section.title}
             </h3>
-            {visibleSections[section.title] && (
+            {(isTabletOrLarger || visibleSections[section.title]) && (
               <ul className="text-xl w-full gap-7 text-center mt-4 lg:text-left">
                 {section.links.map((link) => (
                   <li
@@ -67,22 +70,21 @@ const Footer = () => {
             )}
           </div>
         ))}
-
       </div>
-        <div className="w-full h-auto flex flex-col  justify-between items-center p-5 sm:flex-row ">
-          <div className="w-full justify-center sm:w-[50%] h-auto flex gap-2 items-center sm:justify-start">
-              {sociallinks.map((link,index)=>(
-                <div key={index} className="w-[30px] h-[30px]">
-                  <a href={link.href}>
-                    <img src={link.scr} alt={link.alt} />
-                  </a>
-                </div>
-              ))}
-          </div>
-          <div  className="mt-2 w-full text-center sm:text-right">
-            @ 2024 coquratebox | all right reserved</div>
-          
+      <div className="w-full h-auto flex flex-col justify-between items-center p-5 sm:flex-row ">
+        <div className="w-full justify-center sm:w-[50%] h-auto flex gap-2 items-center sm:justify-start">
+          {sociallinks.map((link, index) => (
+            <div key={index} className="w-[30px] h-[30px]">
+              <a href={link.href} target="_blank" rel="noopener noreferrer">
+                <img src={link.scr} alt={link.alt} />
+              </a>
+            </div>
+          ))}
         </div>
+        <div className="mt-2 w-full text-center sm:text-right">
+          @ 2024 coquratebox | all right reserved
+        </div>
+      </div>
     </div>
   );
 };
