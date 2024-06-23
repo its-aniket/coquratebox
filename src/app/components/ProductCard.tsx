@@ -9,8 +9,14 @@ const josefin_slab =Josefin_Slab({
   subsets: ["latin"],
   weight: "400",
 })
+interface ProductCardProps {
+  img: string;
+  alt: string;
+  name: string;
+  description: string;
+}
 
-const ProductCard = ({ img, alt, name, description }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ img, alt, name, description }) => {
   return (
     <div className={`${akaya_telivigala.className} w-full h-[300px] p-2 flex flex-col justify-center items-center bg-[#DDEEF4] text-left gap-1`}>
       <img className="p-0 m-0 w-[100%] h-full block object-cover overflow-hidden"src={img} alt={alt} />
