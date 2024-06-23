@@ -2,9 +2,13 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import ProductCard from "../components/ProductCard";
 import { personalizedcategory } from "@/constants";
-import { Preahvihear } from "next/font/google";
+import { Preahvihear,Pontano_Sans } from "next/font/google";
 import Footer from "../components/Footer";
 const preahvihear = Preahvihear({
+  subsets: ["latin"],
+  weight: "400",
+});
+const pontano_Sans = Pontano_Sans({
   subsets: ["latin"],
   weight: "400",
 });
@@ -20,14 +24,17 @@ const Personalize = () => {
           >
             Corporate Gifting
           </h2>
+          <div className={`${pontano_Sans.className} text-black text-xl mt-[15px]`}>
+            Categories
+          </div>
         </div>
         <div className="bg-[#8FE4F0] h-[350px] w-full relative mt-[320px] text-center"></div>
         <div className="w-full h-auto flex items-center justify-center">
-          <div className="absolute mt-[280px] inset-0 w-auto h-auto grid grid-cols-1 place-items-center gap-[71px]  sm:grid-cols-3">
+          <div className="absolute mt-[280px] inset-0 w-auto h-auto grid grid-cols-2 place-items-center gap-2  sm:grid-cols-3">
             {personalizedcategory.map((item, index) => (
               <div
                 key={index}
-                className="w-[280px] p-0 m-0 h-auto flex items-center justify-center sm:w-[350px] sm:h-auto"
+                className="w-[150px] p-0 m-0 h-auto flex items-center justify-center sm:w-[350px] sm:h-auto"
               >
                 <ProductCard
                   key={index}
