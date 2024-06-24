@@ -256,7 +256,7 @@ export const NavLinks = [
   ];
 
 
-   export const personalizedcategory=[
+   export const Corporatecategory=[
     {
       img:"./assets/featured (1).jpg",
       alt:"category1",
@@ -291,6 +291,45 @@ export const NavLinks = [
       img:"./assets/featured (5).jpg",
       alt:"category1",
       name:"Professional Essentials",
+      desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    }
+  ]
+
+  export const personalizedcategory=[
+    {
+      img:"./assets/featured (1).jpg",
+      alt:"category1",
+      name:"Category 1",
+      desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    },
+    {
+      img:"./assets/featured (2).jpg",
+      alt:"category1",
+      name:"Category 2",
+      desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    },
+    {
+      img:"./assets/featured (3).jpg",
+      alt:"category1",
+      name:"Category 3",
+      desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    },
+    {
+      img:"./assets/featured (3).jpg",
+      alt:"category1",
+      name:"Category 4",
+      desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    },
+    {
+      img:"./assets/featured (4).jpg",
+      alt:"category1",
+      name:"Category 5",
+      desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    },
+    {
+      img:"./assets/featured (5).jpg",
+      alt:"category1",
+      name:"Category 6",
       desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
     }
   ]
