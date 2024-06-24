@@ -20,7 +20,7 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ img, alt,btcolor,color, name, description }) => {
   return (
-    <div className={`${akaya_telivigala.className} w-full h-full flex flex-col justify-center items-center bg-[${color}] text-left gap-1 lg:w-auto lg:h-[555px]`}>
+    <div className={`${akaya_telivigala.className} bg-[${color}] w-full h-full flex flex-col justify-center items-center  text-left gap-1 lg:w-auto lg:h-[555px]`}>
       <img className="p-0 m-0 w-full h-full block object-cover overflow-hidden"src={img} alt={alt} />
     
 

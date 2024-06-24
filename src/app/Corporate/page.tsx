@@ -4,6 +4,16 @@ import ProductCard from "../components/ProductCard";
 import { Corporatecategory } from "@/constants";
 import { Preahvihear,Pontano_Sans } from "next/font/google";
 import Footer from "../components/Footer";
+import { Akaya_Telivigala ,Lilita_One,Acme ,Josefin_Slab} from 'next/font/google';
+const akaya_telivigala =Acme({
+  subsets: ["latin"],
+  weight: "400",
+})
+
+const josefin_slab =Josefin_Slab({
+  subsets: ["latin"],
+  weight: "400",
+})
 const preahvihear = Preahvihear({
   subsets: ["latin"],
   weight: "400",
@@ -36,15 +46,15 @@ const Personalize = () => {
                 key={index}
                 className=" w-full h-full p-0 m-0 flex items-center justify-center"
               >
-                <ProductCard
-                  key={index}
-                  img={item.img}
-                  color={"#DDEEF4"}
-                  btcolor="#227ED2"
-                  alt={item.alt}
-                  name={item.name}
-                  description={item.desc}
-                />
+                <div className={`${akaya_telivigala.className} bg-[#D3F3FF] w-full h-full flex flex-col justify-center items-center  text-left gap-1 lg:w-auto lg:h-[555px]`}>
+      <img className="p-0 m-0 w-full h-full block object-cover overflow-hidden"src={item.img} alt={item.alt} />
+    
+
+      <h3 className={`${akaya_telivigala.className} w-full h-auto text-[12px] sm:text-xl p-2 lg:text-2xl`}>{item.name}</h3>
+      <p className={`${josefin_slab.className} hidden w-full h-auto text-[8px] p-2 lg:text-lg lg:block `}>{item.desc}</p>
+      <button className={`bg-[#227ED2] py-[2px] px-2 text-white rounded self-end m-2 mr-2 lg:py-[6px] lg:px-3 lg:text-xl`}>More</button>
+      
+    </div>
               </div>
             ))}
           </div>
