@@ -17,24 +17,24 @@ const Personalize = () => {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <div className="w-full h-full flex flex-col justify-center items-center">
-        <div className="bg-[#19A0BE] h-[350px] w-full relative text-center">
+        <div className="bg-[#19A0BE] h-[280px] w-full relative text-center lg:h-[450px]">
           <h3 className="text-xs text-black mt-[19px] ">Home/</h3>
           <h2
-            className={`${preahvihear.className} text-xl text-white mt-[30px]`}
+            className={`${preahvihear.className} text-xl text-white mt-[30px] lg:text-3xl`}
           >
             Corporate Gifting
           </h2>
-          <div className={`${pontano_Sans.className} text-black text-xl mt-[15px]`}>
+          <div className={`${pontano_Sans.className} text-black text-xl mt-[15px] lg:text-2xl`}>
             Categories
           </div>
         </div>
-        <div className="bg-[#8FE4F0] h-[350px] w-full relative mt-[320px] text-center"></div>
+
         <div className="w-full h-auto flex items-center justify-center">
-          <div className="absolute mt-[280px] inset-0 w-auto h-auto grid grid-cols-2 place-items-center gap-2  sm:grid-cols-3">
+          <div className="absolute h-auto w-full mt-[260px] inset-0 grid grid-cols-2 place-items-center  gap-2 p-3 lg:mt-[320px] lg:p-10 lg:gap-10 lg:grid-cols-3">
             {personalizedcategory.map((item, index) => (
               <div
                 key={index}
-                className="w-[150px] p-0 m-0 h-auto flex items-center justify-center sm:w-[350px] sm:h-auto"
+                className=" w-full h-full p-0 m-0 flex items-center justify-center"
               >
                 <ProductCard
                   key={index}
@@ -48,7 +48,7 @@ const Personalize = () => {
           </div>
         </div>
       </div>
-      <div className="bottom-0 block mb-0 mt-[1400px] sm:mt-10">
+      <div className="bottom-0 block mb-0 mt-[1400px] lg:mt-[1400px]">
         <Footer />
       </div>
     </div>
