@@ -83,7 +83,7 @@ const Navbar = () => {
             <div className="h-full items-start mt-5">
               <ul className="flex flex-col gap-4 text-lg w-full text-right">
                 {NavLinks.map((link) => (
-                  <div className="flex justify-between items-center border-b-[1px]">
+                  <div key={link.key} className="flex justify-between items-center border-b-[1px]">
                     <div>
                       <img
                         src="./arrow.png"
@@ -91,7 +91,7 @@ const Navbar = () => {
                         className="w-[25px] h-[25px] -rotate-90"
                       />
                     </div>
-                    <Link href={link.href} key={link.key}>
+                    <Link href={link.href} >
                       <div className="nav-title group transition duration-300  ">
                         {link.text}
                         <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
