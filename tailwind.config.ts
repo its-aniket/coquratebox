@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      transitionDelay: {
+        '150ms': '150ms',
+        '300ms': '300ms',
+        '450ms': '450ms',
+        '600ms': '600ms',
+        '750ms': '750ms',
+        // add more as needed
+      },
       fontFamily: {
         pompier: ['Pompier', 'sans-serif'], // Add your custom font here
       },

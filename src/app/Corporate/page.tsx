@@ -24,7 +24,7 @@ const pontano_Sans = Pontano_Sans({
 });
 const Personalize = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen scroll-smooth">
       <Navbar />
       <div className="w-full h-full flex flex-col justify-center items-center">
         <div className="bg-[#26B4C7] h-[280px] w-full relative text-center lg:h-[450px]">

@@ -10,7 +10,7 @@ import NotableClient from "./components/NotableClient"
 import Footer from "./components/Footer";
 export default function Home() {
   return (
-    <main className="p-0 m-0 ">
+    <main className="p-0 m-0 scroll-smooth">
       <Navbar />
       <HeroSection />
       <FeaturedCollection />
