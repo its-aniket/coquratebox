@@ -16,6 +16,9 @@ const config: Config = {
         '750ms': '750ms',
         // add more as needed
       },
+      screens: {
+        'tablet': '420px',
+      },
       fontFamily: {
         pompier: ['Pompier', 'sans-serif'], // Add your custom font here
       },

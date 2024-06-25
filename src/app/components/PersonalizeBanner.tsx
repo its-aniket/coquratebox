@@ -1,6 +1,8 @@
 import React from "react";
-
-const PersonalizeBanner = () => {
+interface PersonalizeBannerProps {
+  scrollToSection: () => void;
+}
+const PersonalizeBanner: React.FC<PersonalizeBannerProps> = ({ scrollToSection }) => {
   return (
     <main className="m-0 p-0 w-full h-[255px] relative lg:w-full lg:h-[564px] ">
       <div className="w-full absolute bg-white subpixel-antialiased flex justify-between items-center h-[80px] p-2  mt-[27px] text-right
@@ -10,7 +12,8 @@ const PersonalizeBanner = () => {
         <button className="bg-black whitespace-nowrap flex justify-center items-center text-white text-[10px] pl-[10px] pr-[10px] pt-[5px] pb-[5px] rounded-[36px]
           lg:w-auto lg:text-[20px] lg:pl-[15px] lg:pr-[15px] lg:pt-[10px] lg:pb-[10px]
           transition ease-in-out delay-150 hover:shadow-xl hover:-translate-y-1
-          ">ENQUIRE NOW</button>
+          " onClick={scrollToSection}
+          >ENQUIRE NOW</button>
        </div>
         <div className="grow">
         <p className="text-[10px] w-full lg:text-[15px]">PERFECT</p>

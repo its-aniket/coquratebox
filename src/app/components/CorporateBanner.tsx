@@ -1,6 +1,9 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
-const CorporateBanner = () => {
+interface PersonalizeBannerProps {
+  scrollToSection: () => void;
+}
+const CorporateBanner: React.FC<PersonalizeBannerProps> = ({ scrollToSection }) => {
   return (
     <main className="m-0 p-0 w-full h-[255px] relative lg:w-full lg:h-[564px] ">
       <div
@@ -21,7 +24,7 @@ const CorporateBanner = () => {
           <button
             className="bg-black whitespace-nowrap flex justify-center items-center transition ease-in-out delay-150 hover:shadow-2xl hover:-translate-y-1 text-white text-[10px] pl-[10px] pr-[10px] pt-[5px] pb-[5px] rounded-[36px]
           lg:w-auto lg:text-[20px] lg:pl-[15px] lg:pr-[15px] lg:pt-[10px] lg:pb-[10px]"
-          >
+          onClick={scrollToSection} >
             ENQUIRE NOW
           </button>
         </div>

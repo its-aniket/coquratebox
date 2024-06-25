@@ -9,6 +9,7 @@ import {
   Acme,
   Josefin_Slab,
 } from "next/font/google";
+import PersonalizeBanner from "../components/PersonalizeBanner";
 
 const akaya_telivigala = Acme({
   subsets: ["latin"],
@@ -109,11 +110,11 @@ const Personalize = () => {
             ))}
           </div>
         </div>
-
+  
         <div
           id="birthday"
           ref={birthdayRef}
-          className="h-[600px] mt-[1000px] w-full text-center shadow-sm "
+          className="h-[600px] mt-[1400px] w-full text-center shadow-sm "
         >
           <h2 className="text-[20px] text-black text-center lg:text-[40px]">
             Birthday

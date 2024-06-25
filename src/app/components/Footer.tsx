@@ -15,7 +15,7 @@ type VisibleSections = {
 };
 
 const Footer = () => {
-  const isTabletOrLarger = useMedia({ minWidth: 768 });
+  const isTabletOrLarger = useMedia({ minWidth: 1024 });
   const [visibleSections, setVisibleSections] = useState<VisibleSections>({});
 
   const toggleSection = (title: string) => {
@@ -26,16 +26,16 @@ const Footer = () => {
   };
 
   return (
-    <div className="flex flex-col bg-[#E9DEF4] w-full">
-      <div className="flex flex-col border-t border-black sm:flex-row">
-        <div className="w-[85%] self-center h-full flex justify-center items-center p-10 border-b border-black sm:border-none sm:justify-start sm:items-start">
+    <div className="flex flex-col bg-[#E9DEF4] w-full transition lg:delay-500">
+      <div className="flex flex-col border-t border-black lg:flex-row">
+        <div className="w-[85%] self-center h-full flex justify-center items-center p-10 border-b border-black lg:border-none lg:justify-start lg:items-start">
           <a href="/">
-            <img className="w-[130px] h-auto lg:w-[170px]" src="./logo (2).png" loading="lazy" alt="Logo" />
+            <img className="w-[130px] h-auto lg:w-[170px]" src="./logo (2).png" alt="Logo" />
           </a>
         </div>
         {footerLinks.map((section) => (
-          <div className="flex flex-col self-center justify-center items-center w-[85%] h-auto p-5 border-b border-black sm:border-none" key={section.title}>
-            <h3 className={`w-full text-center sm:text-left text-xl gap-7 cursor-pointer`} onClick={() => toggleSection(section.title)}>
+          <div className="flex flex-col self-center justify-center items-center w-[85%] h-auto p-5 border-b border-black lg:border-none" key={section.title}>
+            <h3 className={`w-full text-center lg:text-left text-xl gap-7 cursor-pointer`} onClick={() => toggleSection(section.title)}>
               {section.title}
             </h3>
             {(isTabletOrLarger || visibleSections[section.title]) && (
@@ -58,8 +58,7 @@ const Footer = () => {
           {sociallinks.map((link, index) => (
             <div key={index} className="w-[30px] h-[30px]">
               <a href={link.href} target="_blank" rel="noopener noreferrer">
-                
-                <img src={link.scr} alt={link.alt} loading="lazy"/>
+                <img src={link.scr} alt={link.alt} />
               </a>
             </div>
           ))}
