@@ -172,9 +172,9 @@ export const NavLinks = [
       href:"https://www.linkedin.com/company/coqurate-box/posts/?feedView=all",
     },
     {
-      alt:"Thread icon",
-      scr:"./assets/threads.png",
-      href:"/",
+      alt:"facebook icon",
+      scr:"./assets/facebook.png",
+      href:"https://www.facebook.com/coquratebox/",
     },
   ]
   export const footerLinks = [
