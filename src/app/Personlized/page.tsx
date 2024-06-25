@@ -113,23 +113,35 @@ const Personalize = () => {
         <div
           id="birthday"
           ref={birthdayRef}
-          className="h-[600px] mt-[1000px] w-full text-center"
+          className="h-[600px] mt-[1000px] w-full text-center shadow-sm "
         >
           <h2 className="text-[20px] text-black text-center lg:text-[40px]">
             Birthday
           </h2>
         </div>
-        <div id="birthday" ref={anniversaryRef} className="h-[600px] mt-[1000px] w-full text-center">
+        <div
+          id="birthday"
+          ref={anniversaryRef}
+          className="h-[600px] w-full text-center shadow-sm"
+        >
           <h2 className="text-[20px] text-black text-center lg:text-[40px]">
             Anniversary
           </h2>
         </div>
-        <div id="birthday" ref={newBornRef} className="h-[600px] mt-[1000px] w-full text-center">
+        <div
+          id="birthday"
+          ref={newBornRef}
+          className="h-[600px]  w-full text-center shadow-sm"
+        >
           <h2 className="text-[20px] text-black text-center lg:text-[40px]">
             New Born
           </h2>
         </div>
-        <div id="birthday" ref={momToBeRef} className="h-[600px] mt-[1000px] w-full text-center">
+        <div
+          id="birthday"
+          ref={momToBeRef}
+          className="h-[600px]  w-full text-center shadow-sm"
+        >
           <h2 className="text-[20px] text-black text-center lg:text-[40px]">
             Mom to be
           </h2>

@@ -1,5 +1,5 @@
 export const NavLinks = [
-    { href: '/', key: 'Offering', text: 'Offering' },
+    { href: '/', key: 'Home', text: 'Home' },
     { href: '/something', key: 'Fathers Day', text: 'Fathers Day' },
     { href: '/Corporate', key: 'Corporate Gifting', text: 'Corporate Gifting' },
     { href: '/Personlized', key: 'Personlized Gifting', text: 'Personlized Gifting' },
