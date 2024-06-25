@@ -42,7 +42,7 @@ const Popup: React.FC<PopupProps> = ({ onClose,scrollToSection }) => {
           <div className={`${delius.className} text-lg`}>FATHER’S DAY SPECIAL!</div>
           <div className={`${quicksand.className} text-lg text-[#044357]`}>A Token of Appreciation:</div>
           <div className={`${quicksand.className} text-sm text-[#044357]`}>
-            Honor your father's unwavering support with a thoughtful gift.
+            Honor your father&apos;s unwavering support with a thoughtful gift.
             Celebrate his special day with a gesture from the heart.
           </div>
           <button className="bg-black whitespace-nowrap flex justify-center items-center transition ease-in-out delay-150 hover:shadow-2xl hover:-translate-y-1 text-white text-[10px] pl-[10px] pr-[10px] pt-[5px] pb-[5px] rounded-[36px]
