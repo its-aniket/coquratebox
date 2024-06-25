@@ -33,12 +33,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="lg:hidden">
-          <button onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
+        <button onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
             <img
-              className={`w-[${isMobileMenuOpen ? "20px" : "17px"}] h-[${
-                isMobileMenuOpen ? "20px" : "26px"
-              }] m-6`}
-              src={"./mobile-menu.png"}
+              className={`w-[30px] h-[30px] m-6`}
+              src={isMobileMenuOpen ? "./assets/close.png" : "./mobile-menu.png"}
               alt=""
               loading="lazy"
             />
