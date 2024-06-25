@@ -299,37 +299,37 @@ export const NavLinks = [
     {
       img:"./assets/featured (1).jpg",
       alt:"category1",
-      name:"Category 1",
+      name:"Birthday",
       desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
     },
     {
       img:"./assets/featured (2).jpg",
       alt:"category1",
-      name:"Category 2",
+      name:"Anniversary",
       desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
     },
     {
       img:"./assets/featured (3).jpg",
       alt:"category1",
-      name:"Category 3",
+      name:"New Born",
       desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
     },
     {
       img:"./assets/featured (3).jpg",
       alt:"category1",
-      name:"Category 4",
+      name:"Mom to Be",
       desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
     },
     {
       img:"./assets/featured (4).jpg",
       alt:"category1",
-      name:"Category 5",
+      name:"Mom to Be",
       desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
     },
     {
       img:"./assets/featured (5).jpg",
       alt:"category1",
-      name:"Category 6",
+      name:"Mom to Be",
       desc:`Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
     }
   ]

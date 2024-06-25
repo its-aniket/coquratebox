@@ -21,7 +21,7 @@ const PersonalizeBanner = () => {
         </p>
         </div>
       </div>
-      <img className="w-full h-full object-cover hover:transition-all" src="./assets/featured (4).jpg" alt="" />
+      <img loading="lazy" className="w-full h-full object-cover hover:transition-all" src="./assets/featured (4).jpg" alt="" />
     </main>
   );
 };

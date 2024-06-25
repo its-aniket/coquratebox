@@ -33,11 +33,13 @@ const HeroSection = () => {
               className="m-0 p-0 w-full h-[600px] block object-cover lg:hidden"
               src={link.src1}
               alt={link.alt1}
+              loading="lazy"
             />
             <img
               className="m-0 p-0 w-full h-[600px] object-cover hidden lg:block"
               src={link.src2}
               alt={link.alt2}
+              loading="lazy"
             />
           </div>
         ))}
@@ -47,7 +49,7 @@ const HeroSection = () => {
           onClick={prev}
           className="w-[60px] h-[60px] rounded-[50%] bg-white flex justify-center items-center drop-shadow-md"
         >
-          <img className="h-[32px] w-[38px]" src="./arrow.png" alt="" />
+          <img className="h-[32px] w-[38px]" src="./arrow.png" alt="" loading="lazy" />
         </button>
         <button
           onClick={next}
@@ -57,6 +59,7 @@ const HeroSection = () => {
             className="rotate-180 h-[32px] w-[38px]"
             src="./arrow.png"
             alt=""
+            loading="lazy"
           />
         </button>
       </div>

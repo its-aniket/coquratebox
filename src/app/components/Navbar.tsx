@@ -16,6 +16,7 @@ const Navbar = () => {
               className="w-[130px] h-[46px] m-6 "
               src="./logo (2).png"
               alt="Logo"
+              loading="lazy"
             />
           </a>
         </div>
@@ -38,6 +39,7 @@ const Navbar = () => {
                 className=" w-[20px] h-[20px] m-6"
                 src="./assets/close.png"
                 alt=""
+                loading="lazy"
               />
             </button>
           ) : (
@@ -46,6 +48,7 @@ const Navbar = () => {
                 className=" w-[17px] h-[26px] m-6"
                 src="./mobile-menu.png"
                 alt=""
+                loading="lazy"
               />
             </button>
           )}
@@ -70,12 +73,13 @@ const Navbar = () => {
                 &times;
               </button>
             </div>
-            <div className="w-full flex items-center justify-center">
+            <div className="w-full px-5 border-b-[1px] flex items-center justify-center">
               <a href="/">
                 <img
                   className="w-[130px] h-[46px] m-6 "
                   src="./logo (2).png"
                   alt="Logo"
+                  loading="lazy"
                 />
               </a>
             </div>
@@ -89,6 +93,7 @@ const Navbar = () => {
                         src="./arrow.png"
                         alt="down button"
                         className="w-[25px] h-[25px] -rotate-90"
+                        loading="lazy"
                       />
                     </div>
                     <Link href={link.href} >
@@ -112,7 +117,7 @@ const Navbar = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src={link.scr} alt={link.alt} />
+                      <img src={link.scr} alt={link.alt} loading="lazy" />
                     </a>
                   </div>
                 ))}

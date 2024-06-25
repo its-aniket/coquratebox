@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { error } from "console";
 import { Pompiere } from "next/font/google";
+import LazyLoad from 'react-lazyload';
 
 const pompiere = Pompiere({
   subsets: ["latin"],
@@ -139,8 +140,11 @@ const ContactUs = () => {
           </form>
       </div>
       {/* divider */}
-      <div className="flex w-full h-full items-center justify-center sm:w-[50%] sm:h-auto">
-        <img src="./assets/contact.png" alt="" />
+      <div className="flex w-full h-full items-center justify-center preload-image sm:w-[50%] sm:h-auto">
+      
+        <img src="./assets/contact.png" alt="" loading="lazy" />
+          
+      
       </div> 
     </div>
   );

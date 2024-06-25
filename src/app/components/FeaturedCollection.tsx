@@ -13,13 +13,14 @@ const FeaturedCollection = () => {
           View All
         </button>
       </div>
-      <div className="bg-slate-100 w-full p-2 grid grid-cols-2 gap-3  lg:grid-cols-3">
+      <div className="bg-slate-100 w-full p-2 grid grid-cols-2 gap-3 preload-image  lg:grid-cols-3">
         {featuredcollection.map((item,index) => (
           <img
             key={index}
             src={item.src}
             alt={item.alt}
             className="w-full h-full object-cover transition ease-in-out delay-150 hover:shadow-2xl hover:-translate-y-1"
+            loading="lazy"
           />
         ))}
       </div>

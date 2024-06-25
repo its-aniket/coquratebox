@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="flex flex-col border-t border-black sm:flex-row">
         <div className="w-[85%] self-center h-full flex justify-center items-center p-10 border-b border-black sm:border-none sm:justify-start sm:items-start">
           <a href="/">
-            <img className="w-[130px] h-auto lg:w-[170px]" src="./logo (2).png" alt="Logo" />
+            <img className="w-[130px] h-auto lg:w-[170px]" src="./logo (2).png" loading="lazy" alt="Logo" />
           </a>
         </div>
         {footerLinks.map((section) => (
@@ -58,7 +58,8 @@ const Footer = () => {
           {sociallinks.map((link, index) => (
             <div key={index} className="w-[30px] h-[30px]">
               <a href={link.href} target="_blank" rel="noopener noreferrer">
-                <img src={link.scr} alt={link.alt} />
+                
+                <img src={link.scr} alt={link.alt} loading="lazy"/>
               </a>
             </div>
           ))}

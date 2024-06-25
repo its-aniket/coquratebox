@@ -47,7 +47,7 @@ const Personalize = () => {
                 className=" w-full h-full p-0 m-0 flex items-center justify-center"
               >
                 <div className={`${akaya_telivigala.className} bg-[#D3F3FF] w-full h-full flex flex-col justify-center items-center  text-left gap-1 lg:w-auto lg:h-[555px]`}>
-      <img className="p-0 m-0 w-full h-full block object-cover overflow-hidden"src={item.img} alt={item.alt} />
+      <img loading="lazy" className="p-0 m-0 w-full h-full block object-cover overflow-hidden"src={item.img} alt={item.alt} />
     
 
       <h3 className={`${akaya_telivigala.className} w-full h-auto text-[12px] sm:text-xl p-2 lg:text-2xl`}>{item.name}</h3>
