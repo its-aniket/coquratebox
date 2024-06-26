@@ -1,18 +1,17 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pompiere, Quicksand } from "next/font/google";
+import {  Quicksand } from "next/font/google";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import { Delius } from "next/font/google";
 import { Autoplay, FreeMode, Pagination, Scrollbar } from "swiper/modules";
 
-import { RxArrowTopRight } from "react-icons/rx";
+
 import { testimonials } from "@/constants";
 import React from "react";
-import { useState, useEffect } from "react";
 import { FaStar } from "react-icons/fa";
-
+import LazyLoad from "react-lazyload";
 const delius = Delius({
   subsets: ["latin"],
   weight: "400",
@@ -59,11 +58,14 @@ const Testimonials = () => {
                 <div className="text-center flex justify-center flex-col gap-7 p-1 m-1">
                   <div className="flex flex-col justify-center items-center gap-1">
                     <div className="overflow-hidden self-center rounded-full">
-                      <img
-                        src={item.productimg}
-                        alt={item.alt}
-                        className="w-[50px] h-[50px]"
-                      />
+                      <LazyLoad>
+                        <img
+                          src={item.productimg}
+                          alt={item.alt}
+                          className="w-[50px] h-[50px]"
+                          loading="lazy"
+                        />
+                      </LazyLoad>
                     </div>
                     <div className="flex justify-center items-center">
                       {Array.from({ length: item.rating }, (_, i) => (

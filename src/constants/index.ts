@@ -37,27 +37,27 @@ export const categoryFilters = [
 // <img className="w-full h-full object-cover " src="./assets/featured6.jpg" alt="Featured Item 6" />
 export const featuredcollection = [
   {
-    src: "./assets/featured (1).jpg",
+    src: "/assets/featured (1).jpg",
     alt: "Featured Item 1",
   },
   {
-    src: "./assets/featured (2).jpg",
+    src: "/assets/testimonial (6).jpg",
     alt: "Featured Item 2",
   },
   {
-    src: "./assets/featured (3).jpg",
+    src: "/assets/featured (3).jpg",
     alt: "Featured Item 3",
   },
   {
-    src: "./assets/featured (4).jpg",
+    src: "/assets/featured (4).jpg",
     alt: "Featured Item 4",
   },
   {
-    src: "./assets/featured (5).jpg",
+    src: "/assets/featured (5).jpg",
     alt: "Featured Item 5",
   },
   {
-    src: "./assets/featured (6).jpg",
+    src: "/assets/featured (6).jpg",
     alt: "Featured Item 6",
   },
 ];

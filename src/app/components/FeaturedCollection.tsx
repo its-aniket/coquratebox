@@ -1,30 +1,63 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import { featuredcollection } from "@/constants";
-import Image from "next/image";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/free-mode";
+
+import { Autoplay, FreeMode, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+
 const FeaturedCollection = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center pt-4">
-      <div className="w-full flex justify-center items-center flex-col mb-5">
-        <h2 className="text-[20px] text-black text-center lg:text-[40px]">
-          Featured Collection
-        </h2>
-        <button className="bg-black mt-[8px] px-[26px] py-[5px] rounded-[36px] text-[15px] text-white lg:py-3">
-          View All
-        </button>
+    <>
+      <div className="m-0  w-full h-auto flex justify-center items-center flex-col">
+        <div className="w-full flex justify-center items-center flex-col mb-5">
+          <h2 className="text-[20px] text-black text-center lg:text-[40px]">
+            Featured Collection
+          </h2>
+          <button className="bg-black mt-[8px] px-[26px] py-[5px] rounded-[36px] text-[15px] text-white lg:py-3">
+            View All
+          </button>
+        </div>
+        <div className="w-full h-full px-2 py-2  bg-[#D9D9D9] md:py-4">
+        <Swiper
+          breakpoints={{
+            425: {
+              slidesPerView: 2,
+              spaceBetween: 5,
+            },
+            724: {
+              slidesPerView: 3,
+              spaceBetween: 15,
+            },
+          }}
+          pagination={{ clickable: true }}
+          autoplay={{
+            delay: 5500,
+            disableOnInteraction: false,
+          }}
+          modules={[FreeMode, Pagination, Autoplay]}
+          speed={1500}
+          cssMode={true}
+          className="w-full lg:max-w-[95%]"
+        >
+            {featuredcollection.map((item, index) => (
+              <SwiperSlide key={index}>
+                <img
+                  key={index}
+                  src={item.src}
+                  alt={item.alt}
+                  className="w-full h-full object-cover transition ease-in-out delay-150 hover:shadow-2xl hover:-translate-y-1"
+                  loading="lazy"
+                />
+              </SwiperSlide>
+            ))}
+        </Swiper>
+          </div>
       </div>
-      <div className="bg-slate-100 w-full p-2 grid grid-cols-2 gap-3 preload-image  lg:grid-cols-3">
-        {featuredcollection.map((item,index) => (
-          <img
-            key={index}
-            src={item.src}
-            alt={item.alt}
-            className="w-full h-full object-cover transition ease-in-out delay-150 hover:shadow-2xl hover:-translate-y-1"
-            loading="lazy"
-          />
-        ))}
-      </div>
-    </div>
+    </>
   );
 };
 
