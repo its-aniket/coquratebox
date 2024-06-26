@@ -5,7 +5,7 @@ interface PersonalizeBannerProps {
 }
 const CorporateBanner: React.FC<PersonalizeBannerProps> = ({ scrollToSection }) => {
   return (
-    <main className="m-0 p-0 w-full h-[255px] relative lg:w-full lg:h-[564px] ">
+    <main className="m-0 p-0 w-full h-[300px]  relative lg:w-full lg:h-[564px] ">
       <div
         className="w-full absolute bg-white subpixel-antialiased flex flex-1 justify-between items-center h-[80px] p-2  mt-[27px] text-left 
        lg:h-[140px] "
@@ -33,7 +33,7 @@ const CorporateBanner: React.FC<PersonalizeBannerProps> = ({ scrollToSection }) 
       <div className="preload-image">
         
           <img
-            className="w-full h-full object-cover"
+            className="h-[300px] w-full lg:h-[564px] object-cover"
             src="./assets/featured (3).jpg"
             alt=""
             loading="lazy"

@@ -5,13 +5,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import { Delius } from "next/font/google";
-import { Autoplay, FreeMode, Pagination } from "swiper/modules";
+import { Autoplay, FreeMode, Pagination, Scrollbar } from "swiper/modules";
 
 import { RxArrowTopRight } from "react-icons/rx";
 import { testimonials } from "@/constants";
 import React from "react";
 import { useState, useEffect } from "react";
 import { FaStar } from "react-icons/fa";
+
 const delius = Delius({
   subsets: ["latin"],
   weight: "400",
@@ -20,9 +21,10 @@ const quicksand = Quicksand({
   subsets: ["latin"],
   weight: "400",
 });
+
 const Testimonials = () => {
   return (
-    <div className="">
+    <div>
       <h2 className="p-6 text-[20px] text-black text-center lg:text-[40px]">
         Testimonials
       </h2>
@@ -38,7 +40,7 @@ const Testimonials = () => {
               spaceBetween: 15,
             },
           }}
-          pagination={true}
+          pagination={{ clickable: true }}
           autoplay={{
             delay: 5500,
             disableOnInteraction: false,
@@ -53,9 +55,8 @@ const Testimonials = () => {
               key={index}
               className="flex justify-center items-center gap-4"
             >
-              <div className="flex flex-col  mb-10 text-center shadow-lg p-4 bg-[#FBF9F4] text-black rounded-xl  px-6 py-8 h-250px w-100px lg:h-auto min-h-[320px] max-h-[300px] lg:w-auto  cursor-pointer">
-                {/* <div className="absolute inset-0  bg-black opacity-10 group-hover:opacity-50" /> */}
-                <div className="text-center flex justify-center  flex-col gap-7 p-1 m-1">
+              <div className="flex flex-col mb-10 text-center shadow-lg p-4 bg-white text-black rounded-xl px-6 py-8 min-h-[320px] max-h-[300px] cursor-pointer">
+                <div className="text-center flex justify-center flex-col gap-7 p-1 m-1">
                   <div className="flex flex-col justify-center items-center gap-1">
                     <div className="overflow-hidden self-center rounded-full">
                       <img
@@ -64,7 +65,7 @@ const Testimonials = () => {
                         className="w-[50px] h-[50px]"
                       />
                     </div>
-                    <div className="flex justify-center items-center ">
+                    <div className="flex justify-center items-center">
                       {Array.from({ length: item.rating }, (_, i) => (
                         <FaStar key={i} className="text-yellow-500" />
                       ))}
@@ -73,10 +74,10 @@ const Testimonials = () => {
                   <p
                     className={`${quicksand.className} review-text text-sm lg:text-[18px] transition-all duration-500 ease-in-out`}
                   >
-                    {item.review}{" "}
+                    {item.review}
                   </p>
-                  <p className={`${delius.className} text-sm  lg:text-lg`}>
-                    {item.companyname}{" "}
+                  <p className={`${delius.className} text-sm lg:text-lg`}>
+                    {item.companyname}
                   </p>
                 </div>
               </div>
