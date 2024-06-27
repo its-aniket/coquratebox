@@ -10,6 +10,7 @@ import ContactUs from "./components/ContactUs";
 import NotableClient from "./components/NotableClient";
 import Footer from "./components/Footer";
 import PopUp from "./components/PopUp";
+import AnnouncementBar from "./components/AnnouncementBar";
 
 const Home: React.FC = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -31,6 +32,7 @@ const Home: React.FC = () => {
 
   return (
     <main className="p-0 m-0 scroll-smooth">
+      <AnnouncementBar />
       <Navbar />
       <HeroSection />
       <FeaturedCollection />

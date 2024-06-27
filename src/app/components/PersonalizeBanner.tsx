@@ -25,7 +25,7 @@ const PersonalizeBanner: React.FC<PersonalizeBannerProps> = ({ scrollToSection }
         </div>
       </div>
       
-      <img loading="lazy" className="w-full h-full object-cover hover:transition-all" src="./assets/featured (4).jpg" alt="" />
+      <img loading="lazy" className="w-full h-full object-cover hover:transition-all" src="./assets/featured (4).webp" alt="" />
     </main>
   );
 };

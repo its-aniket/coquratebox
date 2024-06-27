@@ -70,7 +70,7 @@ const ContactUs = () => {
         "template_6lsws37",
         {
           from_name: form.name,
-          to_name: "Aniket",
+          to_name: "Coqurate Box",
           mobile: form.mobile,
           from_email: form.email,
           to_email: "aniketjadhav770698@gmail.com",
@@ -176,7 +176,7 @@ const ContactUs = () => {
       </div>
       {/* divider */}
       <div className="flex w-full h-full items-center justify-center preload-image sm:w-[50%] sm:h-auto">
-        <img src="./assets/contact.png" alt="" loading="lazy" />
+        <img src="./assets/contact.webp" alt="" loading="lazy" />
       </div> 
     </div>
   );

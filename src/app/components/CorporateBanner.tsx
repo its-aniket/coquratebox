@@ -34,9 +34,9 @@ const CorporateBanner: React.FC<PersonalizeBannerProps> = ({ scrollToSection }) 
         
           <img
             className="h-[300px] w-full lg:h-[564px] object-cover"
-            src="./assets/featured (3).jpg"
+            src="./assets/featured (3).webp"
             alt=""
-            loading="lazy"
+            loading="eager"
           />
         
       </div>

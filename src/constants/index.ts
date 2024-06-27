@@ -10,7 +10,9 @@ export const NavLinks = [
   { href: "/AboutUs", key: "About Us", text: "About Us" },
 ];
 export const Announcement = [
-  { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" },
+  { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" }
+  ,{ key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" },
+  { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" }
 ];
 export const categoryFilters = [
   "Corporate events",
@@ -37,98 +39,98 @@ export const categoryFilters = [
 // <img className="w-full h-full object-cover " src="./assets/featured6.jpg" alt="Featured Item 6" />
 export const featuredcollection = [
   {
-    src: "/assets/featured (1).jpg",
+    src: "/assets/featured (1).webp",
     alt: "Featured Item 1",
   },
   {
-    src: "/assets/testimonial (6).jpg",
+    src: "/assets/testimonial (6).webp",
     alt: "Featured Item 2",
   },
   {
-    src: "/assets/featured (3).jpg",
+    src: "/assets/featured (3).webp",
     alt: "Featured Item 3",
   },
   {
-    src: "/assets/featured (4).jpg",
+    src: "/assets/featured (4).webp",
     alt: "Featured Item 4",
   },
   {
-    src: "/assets/featured (5).jpg",
+    src: "/assets/featured (5).webp",
     alt: "Featured Item 5",
   },
   {
-    src: "/assets/featured (6).jpg",
+    src: "/assets/featured (6).webp",
     alt: "Featured Item 6",
   },
 ];
 
 export const testimonials = [
   {
-    productimg:"./assets/featured (3).jpg",
-    alt:"testimonial img 1",
+    productimg: "./assets/featured (3).webp",
+    alt: "testimonial img 1",
     companyname: "Praveer Singh Foseco",
     review: `Innovative thoughts for gifting items. Very supportive and helpful`,
     rating: 5,
   },
   {
-    productimg:"./assets/testimonial (7).jpg",
-    alt:"testimonial img 1",
+    productimg: "./assets/testimonial (7).webp",
+    alt: "testimonial img 1",
     companyname: "Pradnya Phansalksar",
     review: `Simply amazing! NO words to express when i saw people and friend's expression. Keep it up!`,
     rating: 5,
   },
   {
-    productimg:"./assets/testimonial (2).jpg",
-    alt:"testimonial img 1",
+    productimg: "./assets/testimonial (2).webp",
+    alt: "testimonial img 1",
     companyname: "shraddha More",
     review: `Loved combination of products. Most loved thing is packaging boxes, gift wrapping papers. The way it is presented brings smile on the face`,
     rating: 5,
   },
   {
-    productimg:"./assets/testimonial (5).jpg",
-    alt:"testimonial img 1",
+    productimg: "./assets/testimonial (5).webp",
+    alt: "testimonial img 1",
     companyname: "Isha Mahajan",
     review: `Thank you for the prompt service, definitely will recommend to the friend's and family!`,
     rating: 4,
   },
   {
-    productimg:"./assets/popup.jpg",
-    alt:"testimonial img 1",
+    productimg: "./assets/popup.webp",
+    alt: "testimonial img 1",
     companyname: "Nandini kondjekar",
     review: `Hi! Just wanted to let you know, he loved the hamper! It was the perfect gift. Very beautiful and innovative🥰`,
     rating: 5,
   },
   {
-    productimg:"./assets/testimonial.jpg",
-    alt:"testimonial img 1",
+    productimg: "./assets/testimonial.webp",
+    alt: "testimonial img 1",
     companyname: "Sarika Bhansal",
     review: `Hey thanks for the diwali hampers i was looking for something other than mithai and dry fruits and you had the most creative options in market!`,
     rating: 4,
   },
   {
-    productimg:"./assets/testimonial (3).jpg",
-    alt:"testimonial img 1",
+    productimg: "./assets/testimonial (3).webp",
+    alt: "testimonial img 1",
     companyname: "Kirloskar Industries ltd",
     review: `Thank you so much, we all loved the hampers!`,
     rating: 4,
   },
   {
-    productimg:"./assets/testimonial (5).jpg",
-    alt:"testimonial img 1",
+    productimg: "./assets/testimonial (5).webp",
+    alt: "testimonial img 1",
     companyname: "Vaishali Sharma",
     review: `"Thank you dear, loved the gift. So much thought put into it and wrapped with so much love!"`,
     rating: 5,
   },
   {
-    productimg:"./assets/testimonial (1).jpg",
-    alt:"testimonial img 1",
+    productimg: "./assets/testimonial (1).webp",
+    alt: "testimonial img 1",
     companyname: "Ganesh Khedkar",
     review: `Amazing combination with exceptionally beautiful designs and exclusive packaging!`,
     rating: 5,
   },
   {
-    productimg:"./assets/testimonial (4).jpg",
-    alt:"testimonial img 1",
+    productimg: "./assets/testimonial (4).webp",
+    alt: "testimonial img 1",
     companyname: "Mukta Joshi",
     review: `Ordered this gift for my friend's daughter's 12th birthday. It made her so happy. Loved it so much. Very fast delivery also. Will definitely order again ☺️`,
     rating: 5,
@@ -138,42 +140,42 @@ export const herobanner = [
   {
     title: `Crafted Memories Captured Forever!`,
     para: `Personalize your moment with our customized hampers`,
-    src1: "./assets/featured (1).jpg",
+    src1: "./assets/featured (1).webp",
     alt1: "banner image",
-    src2: "./assets/featured (2).jpg",
+    src2: "./assets/featured (2).webp",
     alt2: "banner image 2",
   },
   {
     title: `Crafted Memories Captured Forever!`,
     para: `Personalize your moment with our customized hampers`,
-    src1: "./assets/featured (3).jpg",
+    src1: "./assets/featured (3).webp",
     alt1: "banner image 3",
-    src2: "./assets/featured (4).jpg",
+    src2: "./assets/featured (4).webp",
     alt2: "banner image 4",
   },
   {
     title: `Crafted Memories Captured Forever!`,
     para: `Personalize your moment with our customized hampers`,
-    src1: "./assets/featured (5).jpg",
+    src1: "./assets/featured (5).webp",
     alt1: "banner image 5",
-    src2: "./assets/featured (6).jpg",
+    src2: "./assets/featured (6).webp",
     alt2: "banner image 6",
   },
 ];
 export const sociallinks = [
   {
     alt: "instagram icon",
-    scr: "./assets/instagram.png",
+    scr: "./assets/instagram.webp",
     href: "https://www.instagram.com/coquratebox/",
   },
   {
     alt: "linkedIn icon",
-    scr: "./assets/linkedin.png",
+    scr: "./assets/linkedin.webp",
     href: "https://www.linkedin.com/company/coqurate-box/posts/?feedView=all",
   },
   {
     alt: "facebook icon",
-    scr: "./assets/facebook.png",
+    scr: "./assets/facebook.webp",
     href: "https://www.facebook.com/coquratebox/",
   },
 ];
@@ -255,37 +257,37 @@ export const footerLinks = [
 
 export const Corporatecategory = [
   {
-    img: "./assets/featured (1).jpg",
+    img: "./assets/featured (1).webp",
     alt: "category1",
     name: "Professional Essentials",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (2).jpg",
+    img: "./assets/featured (2).webp",
     alt: "category1",
     name: "Professional Essentials",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (3).jpg",
+    img: "./assets/featured (3).webp",
     alt: "category1",
     name: "Professional Essentials",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (3).jpg",
+    img: "./assets/featured (3).webp",
     alt: "category1",
     name: "Professional Essentials",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (4).jpg",
+    img: "./assets/featured (4).webp",
     alt: "category1",
     name: "Professional Essentials",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (5).jpg",
+    img: "./assets/featured (5).webp",
     alt: "category1",
     name: "Professional Essentials",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
@@ -294,37 +296,37 @@ export const Corporatecategory = [
 
 export const personalizedcategory = [
   {
-    img: "./assets/featured (1).jpg",
+    img: "./assets/featured (1).webp",
     alt: "category1",
     name: "Birthday",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (2).jpg",
+    img: "./assets/featured (2).webp",
     alt: "category1",
     name: "Anniversary",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (3).jpg",
+    img: "./assets/featured (3).webp",
     alt: "category1",
     name: "New Born",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (3).jpg",
+    img: "./assets/featured (3).webp",
     alt: "category1",
     name: "Mom to Be",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (4).jpg",
+    img: "./assets/featured (4).webp",
     alt: "category1",
     name: "Mom to Be",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (5).jpg",
+    img: "./assets/featured (5).webp",
     alt: "category1",
     name: "Mom to Be",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,

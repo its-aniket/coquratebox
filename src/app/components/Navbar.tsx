@@ -16,7 +16,7 @@ const Navbar = () => {
               className="w-[130px] h-[46px] m-6"
               src="./logo (2).png"
               alt="Logo"
-              loading="lazy"
+              loading="eager"
             />
           </a>
         </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
               className={`w-[30px] h-[30px] m-6`}
               src={isMobileMenuOpen ? "./assets/close.png" : "./mobile-menu.png"}
               alt=""
-              loading="lazy"
+              loading="eager"
             />
           </button>
         </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
                 className="w-[130px] h-[46px] m-6"
                 src="./logo (2).png"
                 alt="Logo"
-                loading="lazy"
+               loading="eager"
               />
             </a>
           </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
                       src="./arrow.png"
                       alt="down button"
                       className="w-[25px] h-[25px] -rotate-90"
-                      loading="lazy"
+                      loading="eager"
                     />
                   </div>
                   <Link href={link.href}>
@@ -114,7 +114,7 @@ const Navbar = () => {
                   }`}
                 >
                   <a href={link.href} target="_blank" rel="noopener noreferrer">
-                    <img src={link.scr} alt={link.alt} loading="lazy" />
+                    <img src={link.scr} alt={link.alt} loading="eager"/>
                   </a>
                 </div>
               ))}
