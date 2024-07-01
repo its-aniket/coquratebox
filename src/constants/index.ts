@@ -138,11 +138,11 @@ export const testimonials = [
 ];
 export const herobanner = [
   {
-    title: `Crafted Memories Captured Forever!`,
-    para: `Personalize your moment with our customized hampers`,
-    src1: "./assets/featured (1).webp",
+    title: `Uniquely yours...`,
+    para: `Create Unforgettable Memories with Our Personalized Gifts`,
+    src1: "./assets/banner1.webp",
     alt1: "banner image",
-    src2: "./assets/featured (2).webp",
+    src2: "./assets/banner1.webp",
     alt2: "banner image 2",
   },
   {
@@ -257,39 +257,31 @@ export const footerLinks = [
 
 export const Corporatecategory = [
   {
-    img: "./assets/featured (1).webp",
-    alt: "category1",
-    name: "Professional Essentials",
+    img: "./assets/corporate/njk2.webp",
+    img2: "./assets/corporate/njk.webp",
+    alt: "New joining kit category image",
+    name: "New joining kit",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (2).webp",
-    alt: "category1",
-    name: "Professional Essentials",
+    img: "./assets/corporate/pk (1).webp",
+    img2: "./assets/corporate/pk (2).webp",
+    alt: "Promotion kit category image",
+    name: "Promotion kit",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (3).webp",
-    alt: "category1",
-    name: "Professional Essentials",
+    img: "./assets/corporate/og1.webp",
+    img2: "./assets/corporate/og2.webp",
+    alt: "occasional gifting category image",
+    name: "Occasional Gifting",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
   {
-    img: "./assets/featured (3).webp",
-    alt: "category1",
-    name: "Professional Essentials",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
-  },
-  {
-    img: "./assets/featured (4).webp",
-    alt: "category1",
-    name: "Professional Essentials",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
-  },
-  {
-    img: "./assets/featured (5).webp",
-    alt: "category1",
-    name: "Professional Essentials",
+    img: "./assets/corporate/rk1.webp",
+    img2: "./assets/corporate/rk2.webp",
+    alt: "retirnment kit category image",
+    name: "retirnment kit",
     desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
   },
 ];

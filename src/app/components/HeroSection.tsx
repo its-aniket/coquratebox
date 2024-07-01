@@ -1,7 +1,19 @@
 "use client";
 import React, { useState } from "react";
 import { herobanner } from "@/constants";
-
+import {Dangrek, Quicksand} from "next/font/google"
+const dangrek = Dangrek({
+  subsets: ["latin"],
+  weight: "400",
+});
+const quicksand = Quicksand({
+  subsets: ["latin"],
+  weight: "400",
+});
+// const playwrite_México =Playwrite_México({
+//   subsets: ["latin"],
+//   weight: "400",
+// });
 const HeroSection = () => {
   const [curr, setCurr] = useState(0);
 
@@ -19,9 +31,9 @@ const HeroSection = () => {
         {herobanner.map((link, index) => (
           <div key={index} className="w-full flex-shrink-0 relative">
             <div className="absolute inset-0 flex justify-start items-center text-3xl mt-[27px] flex-col text-center lg:w-full lg:text-black lg:justify-start lg:items-start lg:ml-8 lg:text-6xl lg:text-left ">
-              <div className="w-full h-auto flex flex-col justify-center items-center gap-5 lg:text-left lg:justify-start lg:items-start">
-                <h1 className="w-[400px] lg:w-[800px]">{link.title}</h1>
-                <p className="text-[20px] w-[308px] ">{link.para}</p>
+              <div className="w-full h-auto flex flex-col justify-center mt-12 text-white items-center gap-5 lg:text-left lg:justify-start lg:items-start">
+                <h1 className={`${dangrek.className} w-[400px] lg:w-[800px]`}>{link.title}</h1>
+                <p className={`${quicksand.className}  text-[24px] w-[400px] `}>{link.para}</p>
               </div>
               <div className="lg:w-full lg:h-full lg:flex lg:justify-center lg:items-end">
                 <button className=" bg-black mt-[8px] pl-[26px] pr-[26px] pt-[5px] pb-[5px]  rounded-[36px] text-[15px] text-white  lg:mb-7 lg:pt-3 lg:pb-3 transition ease-in-out delay-150 hover:shadow-2xl hover:-translate-y-1">
