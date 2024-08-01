@@ -27,12 +27,13 @@ const Popup: React.FC<PopupProps> = ({ onClose,scrollToSection }) => {
       };
   return (
     <div className="w-full h-full fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 scroll-smooth">
-      <div className="w-[90%] h-[75%] bg-white flex flex-col gap-1 justify-center items-center md:flex-row md:h-[50%] md:w-[50%] ">
+      <div className="w-[90%] h-[75%] bg-white flex flex-col gap-1  md:flex-row md:h-[50%] md:w-[50%] ">
+        
         <div className="w-full h-1/2 bottom-0 md:h-full md:w-1/2">
           <img src="./assets/popup.webp" loading="eager" alt=""  className="h-full w-full object-cover"/>
           <button
             onClick={onClose}
-            className="absolute top-2 right-2 text-black"
+            className="absolute text-2xl top-3 right-3  text-black"
           >
             &times;
           </button>

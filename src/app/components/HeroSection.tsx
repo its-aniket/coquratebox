@@ -81,8 +81,8 @@ const HeroSection = () => {
           </div>
           {/* banner 3 */}
           <div className="w-full flex-shrink-0 relative">
-            <div className="absolute inset-0 flex justify-start items-center text-3xl mt-[27px] flex-col text-center lg:w-full lg:text-black lg:justify-start lg:items-start lg:ml-8 lg:text-6xl lg:text-left ">
-              <div className="w-full h-auto flex flex-col justify-center mt-12 text-black items-center gap-5 lg:text-left lg:justify-start lg:items-start">
+            <div className="absolute inset-0 flex justify-start items-center text-3xl mt-[27px] flex-col text-center text-white lg:w-full lg:text-black lg:justify-start lg:items-start lg:ml-8 lg:text-6xl lg:text-left ">
+              <div className="w-full h-auto flex flex-col justify-center  text-black items-center gap-5 lg:text-left lg:justify-start lg:mt-12 lg:items-start">
                 <h1 className={`${dangrek.className} w-[400px] lg:w-[800px]`}>Coporate Elegance!</h1>
                 <p className={`${quicksand.className}  text-[24px] lg:w-[450px] `}>Elevate Your Professional Relationships with Premium Corporate Gifts</p>
               </div>

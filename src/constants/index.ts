@@ -1,6 +1,6 @@
 export const NavLinks = [
   { href: "/", key: "Home", text: "Home" },
-  { href: "/something", key: "Fathers Day", text: "Fathers Day" },
+  { href: "/something", key: "Rakshabandhan", text: "Rakshabandhan" },
   { href: "/Corporate", key: "Corporate Gifting", text: "Corporate Gifting" },
   {
     href: "/Personlized",
@@ -10,9 +10,9 @@ export const NavLinks = [
   { href: "/AboutUs", key: "About Us", text: "About Us" },
 ];
 export const Announcement = [
-  { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" }
-  ,{ key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" },
-  { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" }
+  { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" },
+  { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" },
+  { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" },
 ];
 export const categoryFilters = [
   "Corporate events",
@@ -183,42 +183,30 @@ export const footerLinks = [
   {
     title: "GIFTS FOR",
     links: [
-      { href: "/", key: "Birthday", text: "Birthday" },
-      { href: "/", key: "Anniverssary", text: "Anniverssary" },
-      { href: "/", key: "House Warming", text: "House Warming" },
-      { href: "/", key: "Weddign fever", text: "Weddign fever" },
-      { href: "/", key: "New born", text: "New born" },
-      { href: "/", key: "Parents to bee", text: "Parents to bee" },
-      { href: "/", key: "For her", text: "For her" },
-      { href: "/", key: "For him", text: "For him" },
+      { href: "/", key: "Birthday", text: "Birthday Bash" },
+      { href: "/", key: "Anniverssary", text: "Anniverssary Joy" },
+      { href: "/", key: "House Warming", text: "Baby Bliss" },
+      { href: "/", key: "Weddign fever", text: "Token of thanks" },
+      { href: "/", key: "New born", text: "Engagmenet Treats" },
+      { href: "/", key: "Parents to bee", text: "Theme hampers" },
+      { href: "/", key: "For her", text: "Valentine's Love" },
+      { href: "/", key: "For him", text: "K-pop Gifts" },
+      { href: "/", key: "For him", text: "Festive Cheer" },
+      { href: "/", key: "For him", text: "Wedding Delights" },
+      { href: "/", key: "For him", text: "Custom creation" },
     ],
   },
   {
     title: "CORPORATE GIFTS",
     links: [
-      { href: "/", key: "Birthday", text: "Birthday" },
-      { href: "/", key: "Anniverssary", text: "Anniverssary" },
-      { href: "/", key: "House Warming", text: "House Warming" },
-      { href: "/", key: "Weddign fever", text: "Weddign fever" },
-      { href: "/", key: "New born", text: "New born" },
-      { href: "/", key: "Parents to bee", text: "Parents to bee" },
-      { href: "/", key: "For her", text: "For her" },
-      { href: "/", key: "For him", text: "For him" },
+      { href: "/", key: "Birthday", text: "Welcome Gifts" },
+      { href: "/", key: "Anniverssary", text: "Farewell Gifts" },
+      { href: "/", key: "House Warming", text: "Promo Items" },
+      { href: "/", key: "Weddign fever", text: "Event Gifts" },
+      { href: "/", key: "New born", text: "Custom Gifts" },
     ],
   },
-  {
-    title: "KASLE TARI GIFTS",
-    links: [
-      { href: "/", key: "Birthday", text: "Birthday" },
-      { href: "/", key: "Anniverssary", text: "Anniverssary" },
-      { href: "/", key: "House Warming", text: "House Warming" },
-      { href: "/", key: "Weddign fever", text: "Weddign fever" },
-      { href: "/", key: "New born", text: "New born" },
-      { href: "/", key: "Parents to bee", text: "Parents to bee" },
-      { href: "/", key: "For her", text: "For her" },
-      { href: "/", key: "For him", text: "For him" },
-    ],
-  },
+
   // {
   //   title: 'CORPORATE GIFTS',
   //   links: [
@@ -260,67 +248,190 @@ export const Corporatecategory = [
     img: "./assets/corporate/njk2.webp",
     img2: "./assets/corporate/njk.webp",
     alt: "New joining kit category image",
-    name: "New joining kit",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    name: "Welcome Kit",
+    desc: `Start their journey with warm welcome!`,
   },
   {
     img: "./assets/corporate/pk (1).webp",
     img2: "./assets/corporate/pk (2).webp",
     alt: "Promotion kit category image",
-    name: "Promotion kit",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    name: "Farewell Gifts",
+    desc: `Celebrate journey by hounouring the memories!`,
   },
   {
     img: "./assets/corporate/og1.webp",
     img2: "./assets/corporate/og2.webp",
     alt: "occasional gifting category image",
-    name: "Occasional Gifting",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    name: "Event Gifts",
+    desc: `Mark the milestone while sharing moment's of joy!`,
   },
   {
     img: "./assets/corporate/rk1.webp",
     img2: "./assets/corporate/rk2.webp",
     alt: "retirnment kit category image",
-    name: "retirnment kit",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    name: "Custom Gifts",
+    desc: `Personalized precision just to make every gift special!`,
   },
 ];
 
+export const categories = [
+  {
+    id: "birthday",
+    ref: "birthdayRef",
+    title: "Birthday",
+    desc: "Celebrate Their Special Day with Personalized Birthday Surprises!",
+    images:[
+      
+    ]
+  }
+  ,
+  {
+    id: "anniversary",
+    ref: "anniversaryRef",
+    title: "Anniversary",
+    desc: "Celebrate Love with Heartfelt Anniversary Gifts!",
+  },
+
+  {
+    id: "babybliss",
+    ref: "babybliss",
+    title: "Baby Bliss",
+    desc: "Welcome the New Arrival with Delightful Baby Gifts!",
+  },
+  {
+    id: "thankyou",
+    ref: "TokenofThanks",
+    title: "Token Of Thanks",
+    desc: "Express Your Gratitude with Custom-Made Thank You Kit!",
+  },
+  {
+    id: "EngagmentTreats",
+    ref: "EngagmentTreats",
+    title: "Engagment Treats",
+    desc: "Experience the Joy of Commitment with Our Elegant Engagement Platters!!",
+  },
+  {
+    id: "Valentine'sLove",
+    ref: "Valentineslove",
+    title: "Valentine's Love",
+    desc: "Express Your Love with Thoughtful Valentine's Gifts!",
+  },
+  {
+    id: "themehampers",
+    ref: "ThemeHampers",
+    title: "Theme Hampers",
+    desc: "Perfectly Curated Hampers for Every Theme and Occasion!",
+  },
+  {
+    id: "kpop",
+    ref: "kpop",
+    title: "K-Pop culture",
+    desc: "Surprise K-Pop Fans with Unique and Trendy Gifts!",
+  },
+  {
+    id: "Festivecheer",
+    ref: "Festivecheer",
+    title: "Festive Cheer",
+    desc: "Bring Joy to every Celebration this Season with Personalized Kits!",
+  },
+  {
+    id: "weddingDelights",
+    ref: "Weddingdelight",
+    title: "Wedding Delight",
+    desc: "Cherish the Day with Our Personalized Wedding Delights!",
+  },
+]
+
 export const personalizedcategory = [
   {
-    img: "./assets/featured (1).webp",
-    alt: "category1",
-    name: "Birthday",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    img: "./assets/personlize/birthday1.webp",
+    img2: "./assets/personlize/birthday2.webp",
+    alt: "Birthday gift category image category image",
+    name: "Birthday Bash",
+    desc: `Celebrate Their Special Day with Personalized Birthday Surprises!`,
+  },
+  {
+    img: "./assets/personlize/anniversary(1).webp",
+    img2: "./assets/personlize/anniversary(2).webp",
+    alt: "Anniversary gift category image category image",
+    name: "Anniversary joy",
+    desc: `Celebrate Love with Heartfelt Anniversary Gifts!`,
   },
   {
     img: "./assets/featured (2).webp",
-    alt: "category1",
-    name: "Anniversary",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    img2: "./assets/personlize/newborn (2).webp",
+    alt: "new born gift category image category image",
+    name: "Baby bliss",
+    desc: `Welcome the New Arrival with Delightful Baby Gifts!`,
   },
   {
-    img: "./assets/featured (3).webp",
-    alt: "category1",
-    name: "New Born",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    img: "./assets/personlize/thankyou (1).webp",
+    img2: "./assets/personlize/thankyou (2).webp",
+    alt: "Anniversary gift category image category image",
+    name: "Token Of Thanks",
+    desc: `Express Your Gratitude with Custom-Made Thank You Kit!`,
   },
   {
-    img: "./assets/featured (3).webp",
-    alt: "category1",
-    name: "Mom to Be",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    img: "./assets/personlize/engagment 1.webp",
+    img2: "./assets/personlize/engagment 1.webp",
+    alt: "Engagement Treats gift category image category image",
+    name: "Engagement Treats",
+    desc: `Experience the Joy of Commitment with Our Elegant Engagement Platters!!`,
+  },
+  
+  {
+    img: "./assets/personlize/themebase (1).webp",
+    img2: "./assets/personlize/themebase (2).webp",
+    alt: "Theme Hampers gift category image category image",
+    name: "Theme Hampers",
+    desc: `Perfectly Curated Hampers for Every Theme and Occasion!`,
   },
   {
-    img: "./assets/featured (4).webp",
-    alt: "category1",
-    name: "Mom to Be",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    img: "./assets/personlize/valentine1.webp",
+    img2: "./assets/personlize/valentiine 2.webp",
+    alt: "valentine's love gift category image category image",
+    name: "Valentine's Love",
+    desc: `Express Your Love with Thoughtful Valentine's Gifts!`,
+  },
+  // {
+  //   img: "./assets/corporate/rk1.webp",
+  //   img2: "./assets/corporate/rk2.webp",
+  //   alt: "Fresh Fruits gift category image category image",
+  //   name: "Fresh Fruits",
+  //   desc: `Gift the Freshness of Nature with Premium Fruit Baskets!`,
+  // },
+  {
+    img: "./assets/personlize/kpop 1.webp",
+    img2: "./assets/personlize/kpop 2.webp",
+    alt: " K-pop Gifts gift category image category image",
+    name: "K-pop Gifts",
+    desc: `Surprise K-Pop Fans with Unique and Trendy Gifts!`,
   },
   {
-    img: "./assets/featured (5).webp",
-    alt: "category1",
-    name: "Mom to Be",
-    desc: `Impress your clients and colleagues with our all-in-one corporate gift set, ultimate in elegance and functionality`,
+    img: "./assets/personlize/festive 1.webp",
+    img2: "./assets/personlize/festive 2.webp",
+    alt: " Festive Cheer Gifts gift category image category image",
+    name: "Festive Cheer",
+    desc: `Bring Joy to every Celebration this Season with Personalized Kits!`,
   },
+  {
+    img: "./assets/personlize/wedding 1.webp",
+    img2: "./assets/personlize/wedding 2.webp",
+    alt: "Wedding Delights Gifts gift category image category image",
+    name: "Wedding Delights",
+    desc: `Cherish the Day with Our Personalized Wedding Delights!`,
+  },
+  // {
+  //   img: "./assets/corporate/rk1.webp",
+  //   img2: "./assets/corporate/rk2.webp",
+  //   alt: "custom creations Gifts gift category image category image",
+  //   name: "Custom Creations",
+  //   desc: `Craft Unique Memories with Our Custom Creations!`,
+  // },
 ];
+
+
+
+
+
+

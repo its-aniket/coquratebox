@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      transitionProperty: {
+        'default': 'all', // Default transition property
+        'smooth': 'transform 5s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 5s ease-in-out', // Custom transition
+      },
       transitionDelay: {
         '150ms': '150ms',
         '300ms': '300ms',
