@@ -41,7 +41,7 @@ const HoverImage: React.FC<HoverImage> = ({ defaultImg, hoverImg, alt }) => {
     <img
       src={imgSrc}
       alt={alt}
-      className="p-0 m-0 w-full h-full block object-cover overflow-hidden transition duration-500  ease-in-out"
+      className="p-0 m-0 w-full h-full block object-cover overflow-hidden transition duration-500  ease-in-out  lg:max-h-[280px]"
       onMouseEnter={() => setImgSrc(hoverImg)}
       onMouseLeave={() => setImgSrc(defaultImg)}
     />
@@ -265,7 +265,7 @@ const Personalize = () => {
           </div>
         </div>
        
-        <div className="w-full h-full mt-[750px]">
+        <div className="w-full h-full mt-[550px] lg:mt-[750px]">
           {categories.map((item, index) => (
             <div
               key={index}

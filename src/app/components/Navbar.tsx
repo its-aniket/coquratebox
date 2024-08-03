@@ -80,14 +80,14 @@ const Navbar = () => {
                       : "opacity-0 translate-x-full"
                   }`}
                 >
-                  <div>
+                  {/* <div>
                     <img
                       src="./arrow.png"
                       alt="down button"
                       className="w-[25px] h-[25px] -rotate-90"
                       loading="eager"
                     />
-                  </div>
+                  </div> */}
                   <Link href={link.href}>
                     <div className="nav-title group transition duration-300">
                       {link.text}
