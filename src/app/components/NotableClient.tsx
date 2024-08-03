@@ -7,7 +7,7 @@ const NotableClient = () => {
         Notable Clients
       </h2>
       <div className="w-full h-full flex items-center justify-center ">
-        <img loading="lazy" className="lg:w-[1200px] h-auto" src="./assets/notable_client.webp" alt="Previous clients" />
+        <img loading="lazy" className="lg:w-[full] h-auto" src="./notableclients.png" alt="Previous clients" />
       </div>
     </div>
   );

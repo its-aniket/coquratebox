@@ -1,6 +1,6 @@
 export const NavLinks = [
   { href: "/", key: "Home", text: "Home" },
-  { href: "/something", key: "Rakshabandhan", text: "Rakshabandhan" },
+  { href: "/Rakshabandhan", key: "Rakshabandhan", text: "Rakshabandhan" },
   { href: "/Corporate", key: "Corporate Gifting", text: "Corporate Gifting" },
   {
     href: "/Personlized",
@@ -183,27 +183,24 @@ export const footerLinks = [
   {
     title: "GIFTS FOR",
     links: [
-      { href: "/", key: "Birthday", text: "Birthday Bash" },
-      { href: "/", key: "Anniverssary", text: "Anniverssary Joy" },
-      { href: "/", key: "House Warming", text: "Baby Bliss" },
-      { href: "/", key: "Weddign fever", text: "Token of thanks" },
-      { href: "/", key: "New born", text: "Engagmenet Treats" },
-      { href: "/", key: "Parents to bee", text: "Theme hampers" },
-      { href: "/", key: "For her", text: "Valentine's Love" },
-      { href: "/", key: "For him", text: "K-pop Gifts" },
-      { href: "/", key: "For him", text: "Festive Cheer" },
-      { href: "/", key: "For him", text: "Wedding Delights" },
-      { href: "/", key: "For him", text: "Custom creation" },
+      { href: "/Personlized", key: "Birthday Bash", text: "Birthday Bash" },
+      { href: "/Personlized", key: "Anniverssary Joy", text: "Anniverssary Joy" },
+      { href: "/Personlized", key: "Baby Bliss", text: "Baby Bliss" },
+      { href: "/Personlized", key: "Token of thanks", text: "Token of thanks" },
+      { href: "/Personlized", key: "Engagmenet Treats", text: "Engagmenet Treats" },
+      { href: "/Personlized", key: "Theme hampers", text: "Theme hampers" },
+      { href: "/Personlized", key: "Valentine's Love", text: "Valentine's Love" },
+      { href: "/Personlized", key: "K-pop Gifts", text: "K-pop Gifts" },
+      { href: "/Personlized", key: "Festive Cheer", text: "Festive Cheer" },
     ],
   },
   {
     title: "CORPORATE GIFTS",
     links: [
-      { href: "/", key: "Birthday", text: "Welcome Gifts" },
-      { href: "/", key: "Anniverssary", text: "Farewell Gifts" },
-      { href: "/", key: "House Warming", text: "Promo Items" },
-      { href: "/", key: "Weddign fever", text: "Event Gifts" },
-      { href: "/", key: "New born", text: "Custom Gifts" },
+      { href: "/Corporate", key: "Birthday", text: "Welcome Gifts" },
+      { href: "/Corporate", key: "Anniverssary", text: "Farewell Gifts" },
+      { href: "/Corporate", key: "House Warming", text: "Promo Items" },
+      { href: "/Corporate", key: "Weddign fever", text: "Event Gifts" },
     ],
   },
 
@@ -252,8 +249,9 @@ export const Corporatecategory = [
     desc: `Start their journey with warm welcome!`,
   },
   {
-    img: "./assets/corporate/pk (1).webp",
-    img2: "./assets/corporate/pk (2).webp",
+    img: "./assets/corporate/rk1.webp",
+    img2: "./assets/corporate/rk2.webp",
+
     alt: "Promotion kit category image",
     name: "Farewell Gifts",
     desc: `Celebrate journey by hounouring the memories!`,
@@ -266,10 +264,10 @@ export const Corporatecategory = [
     desc: `Mark the milestone while sharing moment's of joy!`,
   },
   {
-    img: "./assets/corporate/rk1.webp",
-    img2: "./assets/corporate/rk2.webp",
+    img: "./assets/corporate/pk (1).webp",
+    img2: "./assets/corporate/pk (2).webp",
     alt: "retirnment kit category image",
-    name: "Custom Gifts",
+    name: "Promo Items",
     desc: `Personalized precision just to make every gift special!`,
   },
 ];

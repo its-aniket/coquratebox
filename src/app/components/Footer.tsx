@@ -26,8 +26,8 @@ const Footer = () => {
   };
 
   return (
-    <div className="flex flex-col bg-[#E9DEF4] w-full transition lg:delay-500">
-      <div className="flex flex-col border-t border-black lg:flex-row">
+    <div className="flex flex-col bg-[#E9DEF4] w-full transition mt-[1px]  lg:delay-500">
+      <div className="flex flex-col border-t  lg:flex-row">
         <div className="w-[85%] self-center h-full flex justify-center items-center p-10 border-b border-black lg:border-none lg:justify-start lg:items-start">
           <a href="/">
             <img className="w-[130px] h-auto lg:w-[170px]" src="./logo (2).png" alt="Logo" />

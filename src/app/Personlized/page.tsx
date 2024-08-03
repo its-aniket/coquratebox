@@ -10,6 +10,7 @@ import {
   Josefin_Slab,
 } from "next/font/google";
 import PersonalizeBanner from "../components/PersonalizeBanner";
+import ScrollToTop from "../components/ScrollToTop";
 
 const akaya_telivigala = Acme({
   subsets: ["latin"],
@@ -481,10 +482,7 @@ const Personalize = () => {
           src: "./assets/personlize/festival (18).webp",
           alt: "festival image 18",
         },
-        {
-          src: "./assets/personlize/festival (19).webp",
-          alt: "festival image 19",
-        },
+      
         {
           src: "./assets/personlize/festival (20).webp",
           alt: "festival image 20",
@@ -503,17 +501,18 @@ const Personalize = () => {
         },
       ],
     },
-    {
-      id: "weddingDelights",
-      ref: Weddingdelight,
-      title: "Wedding Delight",
-      desc: "Cherish the Day with Our Personalized Wedding Delights!",
-      images: [],
-    },
+    // {
+    //   id: "weddingDelights",
+    //   ref: Weddingdelight,
+    //   title: "Wedding Delight",
+    //   desc: "Cherish the Day with Our Personalized Wedding Delights!",
+    //   images: [],
+    // },
   ];
   return (
     <div className="flex flex-col min-h-screen scroll-smooth">
       <Navbar />
+      <ScrollToTop color="#FFE0CE"/>
       <div className="w-full h-full flex flex-col justify-center items-center">
         <div className="bg-[#EA7B2A] h-[280px] w-full relative text-center lg:h-[450px]">
           <h3 className="text-xs text-black mt-[19px]">Home/</h3>
@@ -617,8 +616,7 @@ const Personalize = () => {
           ))}
         </div>
       </div>
-
-      <div className="bottom-0 block mb-0 mt-[1400px] lg:mt-[1400px]">
+      <div className="bottom-0 block mb-0 mt-[100px] lg:mt-[100px]">
         <Footer />
       </div>
     </div>

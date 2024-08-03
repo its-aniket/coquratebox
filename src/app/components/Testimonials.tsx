@@ -27,7 +27,7 @@ const Testimonials = () => {
       <h2 className="p-6 text-[20px] text-black text-center lg:text-[40px]">
         Testimonials
       </h2>
-      <div className="h-auto flex items-center justify-center flex-col gap-4 p-10 bg-[#E9DEF4]">
+      <div className="h-auto flex items-center justify-center flex-col gap-4 p-10 bg-gradient-to-b from-[#D7EED1] to-[#F6ECFF] ">
         <Swiper
           breakpoints={{
             425: {

@@ -1,0 +1,9 @@
+/* styles.css */
+.shape-outside {
+    shape-outside: url('./about\ us.png');
+    shape-margin: 20px;
+    float: left;
+    width: 200px;
+    height: auto;
+  }
+  

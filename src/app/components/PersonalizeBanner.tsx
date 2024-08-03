@@ -4,7 +4,7 @@ interface PersonalizeBannerProps {
 }
 const PersonalizeBanner: React.FC<PersonalizeBannerProps> = ({ scrollToSection }) => {
   return (
-    <main className="m-0 p-0 w-full h-[255px] relative lg:w-full lg:h-[564px] ">
+    <main className="m-0 p-0 w-full h-[400px] relative lg:w-full lg:h-[750px] ">
       <div className="w-full absolute bg-white subpixel-antialiased flex justify-between items-center h-[80px] p-2  mt-[27px] text-right
       lg:h-[140px]
       ">
@@ -19,7 +19,7 @@ const PersonalizeBanner: React.FC<PersonalizeBannerProps> = ({ scrollToSection }
         <p className="text-[10px] w-full lg:text-[15px]">PERFECT</p>
         <h2 className="w-full text-[15px] lg:text-[20px]">Personalized Gifting</h2>
         <p className="text-[10px] mt-[8px] w-full lg:text-[20px] ">
-          Your search of perfect gifting ends here. corporate gifting made
+          Your search of perfect gifting ends here. Personlize gifting made
           easier.
         </p>
         </div>

@@ -11,6 +11,7 @@ import {
   Acme,
   Josefin_Slab,
 } from "next/font/google";
+import ScrollToTop from "../components/ScrollToTop";
 const akaya_telivigala = Acme({
   subsets: ["latin"],
   weight: "400",
@@ -47,10 +48,11 @@ const HoverImage: React.FC<HoverImage> = ({ defaultImg, hoverImg, alt }) => {
   );
 };
 
+
 const Personalize = () => {
   const welcomekitref = useRef<HTMLDivElement>(null);
   const eventref = useRef<HTMLDivElement>(null);
-  const customref = useRef<HTMLDivElement>(null);
+  const promotionalgifting = useRef<HTMLDivElement>(null);
   const farewellref = useRef<HTMLDivElement>(null);
 
   const scrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
@@ -58,10 +60,151 @@ const Personalize = () => {
       ref.current.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const categories =[
+    {
+      id: "welcomekit",
+      ref: welcomekitref,
+      title: "Welcome Kit",
+      desc: "Start Their Journey with a Warm Welcome!",
+      images: [
+        {src: "./assets/corporate/newjoinee (1).webp",  alt: "welcome kit img 1"},
+        {src: "./assets/corporate/newjoinee (2).webp",  alt: "welcome kit img 1"},
+        {src: "./assets/corporate/newjoinee (3).webp",  alt: "welcome kit img 1"},
+        {src: "./assets/corporate/newjoinee (4).webp",  alt: "welcome kit img 1"},
+      ]
+    },
+    {
+      id: "occassional_gifting",
+      ref: eventref,
+      title: "Event Gifts",
+      desc: "Mark the Milestones while Sharing Moments of Joy!",
+      images: [
+        {
+          src: "./assets/personlize/festival (1).webp",
+          alt: "festival image 1",
+        },
+        {
+          src: "./assets/personlize/festival (2).webp",
+          alt: "festival image 2",
+        },
+        {
+          src: "./assets/personlize/festival (3).webp",
+          alt: "festival image 3",
+        },
+        {
+          src: "./assets/personlize/festival (4).webp",
+          alt: "festival image 4",
+        },
+        {
+          src: "./assets/personlize/festival (5).webp",
+          alt: "festival image 5",
+        },
+        {
+          src: "./assets/personlize/festival (6).webp",
+          alt: "festival image 6",
+        },
+        {
+          src: "./assets/personlize/festival (7).webp",
+          alt: "festival image 7",
+        },
+        {
+          src: "./assets/personlize/festival (8).webp",
+          alt: "festival image 8",
+        },
+        {
+          src: "./assets/personlize/festival (9).webp",
+          alt: "festival image 9",
+        },
+        {
+          src: "./assets/personlize/festival (10).webp",
+          alt: "festival image 10",
+        },
+        {
+          src: "./assets/personlize/festival (11).webp",
+          alt: "festival image 11",
+        },
+        {
+          src: "./assets/personlize/festival (12).webp",
+          alt: "festival image 12",
+        },
+        {
+          src: "./assets/personlize/festival (13).webp",
+          alt: "festival image 13",
+        },
+        {
+          src: "./assets/personlize/festival (14).webp",
+          alt: "festival image 14",
+        },
+        {
+          src: "./assets/personlize/festival (15).webp",
+          alt: "festival image 15",
+        },
+        {
+          src: "./assets/personlize/festival (16).webp",
+          alt: "festival image 16",
+        },
+        {
+          src: "./assets/personlize/festival (17).webp",
+          alt: "festival image 17",
+        },
+        {
+          src: "./assets/personlize/festival (18).webp",
+          alt: "festival image 18",
+        },
+      
+        {
+          src: "./assets/personlize/festival (20).webp",
+          alt: "festival image 20",
+        },
+        {
+          src: "./assets/personlize/festival (21).webp",
+          alt: "festival image 21",
+        },
+        {
+          src: "./assets/personlize/festival (22).webp",
+          alt: "festival image 22",
+        },
+        {
+          src: "./assets/personlize/festival (23).webp",
+          alt: "festival image 23",
+        },
+      ]
+    },
+    {
+      
+      id: "farewellref",
+      ref: farewellref,
+      title: "Farewell Gifts",
+      desc: "Celebrate their Journey by Honouring the Memories!",
+      images: [
+        {src: "./assets/corporate/retirenment (1).webp",  alt: "retirnemnt kit img 1"},
+        
+        {src: "./assets/corporate/retirenment (2).webp",  alt: "retirnment kit img 2"},
+      ]
+      
+    },
+    {
+      
+      id: "promotional-gifting",
+      ref: promotionalgifting,
+      title: "Promo Items",
+      desc: "Elevate Visibility and Leave a Lasting Impression!",
+      images: [
+        {src: "./assets/corporate/promotionalgifting (1).webp",  alt: "retirnemnt kit img 1"},
+        {src: "./assets/corporate/promotionalgifting (2).webp",  alt: "retirnemnt kit img 1"},
+        {src: "./assets/corporate/promotionalgifting (3).webp",  alt: "retirnemnt kit img 1"},
+        {src: "./assets/corporate/promotionalgifting (4).webp",  alt: "retirnemnt kit img 1"},
+        {src: "./assets/corporate/promotionalgifting (5).webp",  alt: "retirnemnt kit img 1"},
+        {src: "./assets/corporate/promotionalgifting (6).webp",  alt: "retirnemnt kit img 1"},
+      ]
+      
+    },
 
+]
   return (
     <div className="flex flex-col min-h-screen scroll-smooth">
       <Navbar />
+      <ScrollToTop color="#D3F3FF"/>
       <div className="w-full h-full flex flex-col justify-center items-center">
         <div className="bg-[#26B4C7] h-[280px] w-full relative text-center lg:h-[450px]">
           <h3 className="text-xs text-black mt-[19px] ">Home/</h3>
@@ -109,8 +252,8 @@ const Personalize = () => {
                       scrollToSection(farewellref);
                     else if (item.name === "Event Gifts")
                       scrollToSection(eventref);
-                    else if (item.name === "Custom Gifts")
-                      scrollToSection(customref);
+                    else if (item.name === "Promo Items")
+                      scrollToSection(promotionalgifting);
                   }}
                     className={`bg-[#227ED2] py-[2px] px-2 text-white rounded self-end m-2 mr-2  lg:text-xl`}
                   >
@@ -121,45 +264,36 @@ const Personalize = () => {
             ))}
           </div>
         </div>
-        <div
-          id="Welcome Kit"
-          ref={welcomekitref}
-          className="h-[600px] mt-[1400px] w-full text-center shadow-sm "
-        >
-          <h2 className="text-[20px] text-black text-center lg:text-[40px]">
-          Welcome Kit
-          </h2>
-        </div>
-        <div
-          id="Farewell Gifts"
-          ref={farewellref}
-          className="h-[600px] mt-[1400px] w-full text-center shadow-sm "
-        >
-          <h2 className="text-[20px] text-black text-center lg:text-[40px]">
-          Farewell Gifts
-          </h2>
-        </div>
-        <div
-          id="Event Gifts"
-          ref={eventref}
-          className="h-[600px] mt-[1400px] w-full text-center shadow-sm "
-        >
-          <h2 className="text-[20px] text-black text-center lg:text-[40px]">
-          Event Gifts
-          </h2>
-        </div>
-        <div
-          id="Custom Gifts"
-          ref={customref}
-          className="h-[600px] mt-[1400px] w-full text-center shadow-sm "
-        >
-          <h2 className="text-[20px] text-black text-center lg:text-[40px]">
-          Custom Gifts
-          </h2>
+       
+        <div className="w-full h-full mt-[750px]">
+          {categories.map((item, index) => (
+            <div
+              key={index}
+              id={item.id}
+              ref={item.ref}
+              className="h-auto  w-full text-center shadow-sm p-2"
+            >
+              <h2 className="text-[20px] text-black text-center lg:text-[40px]">
+                {item.title}
+              </h2>
+              <span className="text-[12px] md:text-xl">{item.desc}</span>
+              <div className="flex flex-wrap justify-center mt-4">
+                {item.images.map((img, imgIndex) => (
+                  <div key={imgIndex} className="w-1/2 p-2 sm:w-1/4">
+                    <img
+                      src={img.src}
+                      alt={img.alt}
+                      className="w-full h-[200px] object-cover md:h-[300px]"
+                      loading="lazy"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-      
-      <div className="bottom-0 block mb-0 mt-[1400px] lg:mt-[1400px]">
+      <div className="bottom-0 block mb-0 mt-[100px] lg:mt-[100px]">
         <Footer />
       </div>
     </div>
