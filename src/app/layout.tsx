@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import WhatsappAPI from "./components/WhatsappAPI";
 
 const inter = Poppins({
   subsets: ["latin"],
-  weight: "300"
+  weight: "300",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +21,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children} 
+      <head> 
+        <meta name="title" content="Coqurate Box" />
+        <meta
+          name="description"
+          content="Coqurate Box is a corporate and personalized gifting solution company that believes in the power of thoughtful gifts to build connections and inspire loyalty."
+        />
+
+      </head>
+      <body className={inter.className}>
+        {children}
         <SpeedInsights />
         <WhatsappAPI />
       </body>
