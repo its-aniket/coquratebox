@@ -1,6 +1,6 @@
 export const NavLinks = [
   { href: "/", key: "Home", text: "Home" },
-  { href: "/Rakshabandhan", key: "Rakshabandhan", text: "Rakshabandhan" },
+  { href: "/Diwali_Gifts", key: "Diwali_gift", text: "Diwali Festive" },
   { href: "/Corporate", key: "Corporate Gifting", text: "Corporate Gifting" },
   {
     href: "/Personlized",
@@ -11,8 +11,11 @@ export const NavLinks = [
 ];
 export const Announcement = [
   { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" },
-  { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" },
-  { key: "Announcement one", text: "GET 10% OFF ON THIS RAKHI HAMPERS" },
+  { key: "Announcement three", text: "New Diwali launch is here!!" },
+  {
+    key: "Announcement two",
+    text: "Confirm your order before 25 sept to avail early bird offer",
+  },
 ];
 export const categoryFilters = [
   "Corporate events",
@@ -184,12 +187,24 @@ export const footerLinks = [
     title: "GIFTS FOR",
     links: [
       { href: "/Personlized", key: "Birthday Bash", text: "Birthday Bash" },
-      { href: "/Personlized", key: "Anniverssary Joy", text: "Anniverssary Joy" },
+      {
+        href: "/Personlized",
+        key: "Anniverssary Joy",
+        text: "Anniverssary Joy",
+      },
       { href: "/Personlized", key: "Baby Bliss", text: "Baby Bliss" },
       { href: "/Personlized", key: "Token of thanks", text: "Token of thanks" },
-      { href: "/Personlized", key: "Engagmenet Treats", text: "Engagmenet Treats" },
+      {
+        href: "/Personlized",
+        key: "Engagmenet Treats",
+        text: "Engagmenet Treats",
+      },
       { href: "/Personlized", key: "Theme hampers", text: "Theme hampers" },
-      { href: "/Personlized", key: "Valentine's Love", text: "Valentine's Love" },
+      {
+        href: "/Personlized",
+        key: "Valentine's Love",
+        text: "Valentine's Love",
+      },
       { href: "/Personlized", key: "K-pop Gifts", text: "K-pop Gifts" },
       { href: "/Personlized", key: "Festive Cheer", text: "Festive Cheer" },
     ],
@@ -278,11 +293,8 @@ export const categories = [
     ref: "birthdayRef",
     title: "Birthday",
     desc: "Celebrate Their Special Day with Personalized Birthday Surprises!",
-    images:[
-      
-    ]
-  }
-  ,
+    images: [],
+  },
   {
     id: "anniversary",
     ref: "anniversaryRef",
@@ -338,7 +350,7 @@ export const categories = [
     title: "Wedding Delight",
     desc: "Cherish the Day with Our Personalized Wedding Delights!",
   },
-]
+];
 
 export const personalizedcategory = [
   {
@@ -376,7 +388,7 @@ export const personalizedcategory = [
     name: "Engagement Treats",
     desc: `Experience the Joy of Commitment with Our Elegant Engagement Platters!!`,
   },
-  
+
   {
     img: "./assets/personlize/themebase (1).webp",
     img2: "./assets/personlize/themebase (2).webp",
@@ -427,9 +439,3 @@ export const personalizedcategory = [
   //   desc: `Craft Unique Memories with Our Custom Creations!`,
   // },
 ];
-
-
-
-
-
-

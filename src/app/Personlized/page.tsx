@@ -519,7 +519,7 @@ const Personalize = () => {
           <h2
             className={`${preahvihear.className} text-xl text-white mt-[30px] lg:text-3xl`}
           >
-            Personlized Gifting
+            Personalized Gifting
           </h2>
           <div
             className={`${pontano_Sans.className} text-black text-xl mt-[15px] lg:text-2xl`}

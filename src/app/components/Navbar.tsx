@@ -3,12 +3,13 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { NavLinks, sociallinks } from "@/constants";
-
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full h-auto border-2 flex flex-col justify-between items-center lg:h-[136px] lg:flex-col">
+      
+    <nav  className={`w-full h-auto bg-[url("/assets/navbarbanner.svg")]  bg-cover bg-center flex flex-col justify-between items-center lg:h-[136px] lg:flex-col`}>
+      
       <div className="w-full h-[96px] m-0 p-0 flex justify-between items-center lg:h-[136px] lg:flex-col">
         <div>
           <a href="/">
