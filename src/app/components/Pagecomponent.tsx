@@ -25,7 +25,7 @@ const Pagecomponent = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true);
-    }, 5); // Show pop-up after 10 seconds
+    }, 5000); // Show pop-up after 10 seconds
 
     return () => clearTimeout(timer); // Clear the timer if the component unmounts
   }, []);
