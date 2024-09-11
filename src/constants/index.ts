@@ -3,9 +3,9 @@ export const NavLinks = [
   { href: "/Diwali_Gifts", key: "Diwali_gift", text: "Diwali Festive" },
   { href: "/Corporate", key: "Corporate Gifting", text: "Corporate Gifting" },
   {
-    href: "/Personlized",
-    key: "Personlized Gifting",
-    text: "Personlized Gifting",
+    href: "/Personalized",
+    key: "Personalized Gifting",
+    text: "Personalized Gifting",
   },
   { href: "/AboutUs", key: "About Us", text: "About Us" },
 ];
@@ -186,27 +186,27 @@ export const footerLinks = [
   {
     title: "GIFTS FOR",
     links: [
-      { href: "/Personlized", key: "Birthday Bash", text: "Birthday Bash" },
+      { href: "/Personalized", key: "Birthday Bash", text: "Birthday Bash" },
       {
-        href: "/Personlized",
+        href: "/Personalized",
         key: "Anniverssary Joy",
         text: "Anniverssary Joy",
       },
-      { href: "/Personlized", key: "Baby Bliss", text: "Baby Bliss" },
-      { href: "/Personlized", key: "Token of thanks", text: "Token of thanks" },
+      { href: "/Personalized", key: "Baby Bliss", text: "Baby Bliss" },
+      { href: "/Personalized", key: "Token of thanks", text: "Token of thanks" },
       {
-        href: "/Personlized",
+        href: "/Personalized",
         key: "Engagmenet Treats",
         text: "Engagmenet Treats",
       },
-      { href: "/Personlized", key: "Theme hampers", text: "Theme hampers" },
+      { href: "/Personalized", key: "Theme hampers", text: "Theme hampers" },
       {
-        href: "/Personlized",
+        href: "/Personalized",
         key: "Valentine's Love",
         text: "Valentine's Love",
       },
-      { href: "/Personlized", key: "K-pop Gifts", text: "K-pop Gifts" },
-      { href: "/Personlized", key: "Festive Cheer", text: "Festive Cheer" },
+      { href: "/Personalized", key: "K-pop Gifts", text: "K-pop Gifts" },
+      { href: "/Personalized", key: "Festive Cheer", text: "Festive Cheer" },
     ],
   },
   {

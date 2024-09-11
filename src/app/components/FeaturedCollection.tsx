@@ -18,7 +18,7 @@ const FeaturedCollection = () => {
           <h2 className="text-[20px] text-black text-center lg:text-[40px]">
             Featured Collection
           </h2>
-          <button onClick={() => window.location.href = '/Personlized'} className="bg-black mt-[8px] px-[26px] py-[5px] rounded-[36px] text-[15px] text-white lg:py-3">
+          <button onClick={() => window.location.href = '/Personalized'} className="bg-black mt-[8px] px-[26px] py-[5px] rounded-[36px] text-[15px] text-white lg:py-3">
             View All
           </button>
         </div>

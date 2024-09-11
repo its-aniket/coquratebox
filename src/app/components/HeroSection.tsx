@@ -83,7 +83,7 @@ const HeroSection = () => {
             </div>
             <div className="lg:w-full lg:h-full lg:flex lg:justify-center lg:items-end">
               <button
-                onClick={() => (window.location.href = "/Personlized")}
+                onClick={() => (window.location.href = "/Personalized")}
                 className=" bg-black mt-[8px] pl-[26px] pr-[26px] pt-[5px] pb-[5px]  rounded-[36px] text-[15px] text-white  lg:mb-7 lg:pt-3 lg:pb-3 transition ease-in-out delay-150 hover:shadow-2xl hover:-translate-y-1"
               >
                 View All
@@ -118,7 +118,7 @@ const HeroSection = () => {
             </div>
             <div className="lg:w-full lg:h-full lg:flex lg:justify-center lg:items-end">
               <button
-                onClick={() => (window.location.href = "/Personlized")}
+                onClick={() => (window.location.href = "/Personalized")}
                 className=" bg-black mt-[8px] pl-[26px] pr-[26px] pt-[5px] pb-[5px]  rounded-[36px] text-[15px] text-white  lg:mb-7 lg:pt-3 lg:pb-3 transition ease-in-out delay-150 hover:shadow-2xl hover:-translate-y-1"
               >
                 View All
