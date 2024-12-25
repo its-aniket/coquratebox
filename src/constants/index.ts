@@ -1,6 +1,6 @@
 export const NavLinks = [
   { href: "/", key: "Home", text: "Home" },
-  { href: "/Diwali_Gifts", key: "Diwali_gift", text: "Diwali Festive" },
+  // { href: "/Diwali_Gifts", key: "Diwali_gift", text: "Diwali Festive" },
   { href: "/Corporate", key: "Corporate Gifting", text: "Corporate Gifting" },
   {
     href: "/Personalized",
@@ -42,15 +42,15 @@ export const categoryFilters = [
 // <img className="w-full h-full object-cover " src="./assets/featured6.jpg" alt="Featured Item 6" />
 export const featuredcollection = [
   {
-    src: "/assets/featured (1).webp",
+    src: "/assets/personlize/festival (6).webp",
     alt: "Featured Item 1",
   },
   {
-    src: "/assets/testimonial (6).webp",
+    src: "/assets/personlize/festival (4).webp",
     alt: "Featured Item 2",
   },
   {
-    src: "/assets/featured (3).webp",
+    src: "/assets/personlize/festival (14).webp",
     alt: "Featured Item 3",
   },
   {

@@ -7,8 +7,8 @@ const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-      
-    <nav  className={`w-full h-auto bg-[url("/assets/navbarbanner.svg")]  bg-cover bg-center flex flex-col justify-between items-center lg:h-[136px] lg:flex-col`}>
+      // baground banner bg-[url("/assets/navbarbanner.svg")]
+    <nav  className={`w-full h-auto  bg-cover bg-center flex flex-col justify-between items-center lg:h-[136px] lg:flex-col`}>
       
       <div className="w-full h-[96px] m-0 p-0 flex justify-between items-center lg:h-[136px] lg:flex-col">
         <div>

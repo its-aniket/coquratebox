@@ -32,7 +32,7 @@ const Pagecomponent = () => {
   return (
     
     <main className="p-0 m-0 scroll-smooth">
-      <AnnouncementBar />
+      {/* <AnnouncementBar /> */}
       <Navbar />
       <HeroSection />
       <FeaturedCollection />
@@ -45,7 +45,7 @@ const Pagecomponent = () => {
       </div>
       <Footer />
 
-      {showPopup && <PopUp onClose={() => setShowPopup(false)}  scrollToSection={scrollToSection}/>}
+      {/* {showPopup && <PopUp onClose={() => setShowPopup(false)}  scrollToSection={scrollToSection}/>} */}
     </main>
     
   )

@@ -32,43 +32,41 @@ const HeroSection = () => {
           <div className="absolute inset-0 flex justify-start items-center text-3xl mt-[27px] flex-col text-center lg:w-full lg:text-black lg:justify-start lg:items-start lg:ml-8 lg:text-6xl lg:text-left ">
             <div className="w-full h-auto flex flex-col justify-center mt-5 text-white items-center gap-5 lg:text-left lg:justify-start lg:items-start">
               <h1
-                className={`${dangrek.className} text-[#333333] w-[400px] lg:w-[40%]`}
+                className={`${dangrek.className} text-[#dcd5d5] w-[400px] lg:w-[40%]`}
               >
-                Diwali is Here, and So are Our Exclusive Gifts!
+                Unwrap joy, one gift at a time.
               </h1>
               <p
-                className={`${quicksand.className} text-[#333333] max-w-[600px] text-[24px] lg:w-[600px] `}
+                className={`${quicksand.className} text-[#dcd5d5] max-w-[600px] text-[24px] lg:w-[600px] `}
               >
                 Create Lasting Memories with Personalized Gifts that Speak from
                 the Heart
               </p>
             </div>
-            <div className="lg:w-full z-40 lg:h-full lg:flex lg:justify-center lg:items-end">
+            {/* <div className="lg:w-full z-40 lg:h-full lg:flex lg:justify-center lg:items-end">
               <button
                 onClick={() => window.location.assign("/Diwali_Gifts")}
                 className="bg-[#FF7F11] mt-[8px] pl-[26px] pr-[26px] pt-[5px] pb-[5px] rounded-[36px] text-[15px] text-black lg:mb-7 lg:pt-3 lg:pb-3 transition ease-in-out delay-150 hover:shadow-2xl hover:-translate-y-1"
               >
                 View All
               </button>
-            </div>
+            </div> */}
           </div>
-          <video
+          <img
             className="m-0 p-0 w-full h-[600px] block object-cover lg:hidden"
-            src="./assets/diwali banner mobile.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
+            src="./assets/personlize/festival (2).webp"
+            alt="banner image mobile"
+            loading="lazy"
           />
-          <video
+          <img
             className="m-0 p-0 w-full h-[600px] object-cover hidden lg:block"
-            src="./assets/diwali banner.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
+            src="./assets/personlize/festival (17).webp"
+            alt="banner image desktop"
+            loading="lazy"
           />
         </div>
+
+
         <div className="w-full flex-shrink-0 relative">
           <div className="absolute inset-0 flex justify-start items-center text-3xl mt-[27px] flex-col text-center lg:w-full lg:text-black lg:justify-start lg:items-start lg:ml-8 lg:text-6xl lg:text-left ">
             <div className="w-full h-auto flex flex-col justify-center mt-12 text-white items-center gap-5 lg:text-left lg:justify-start lg:items-start">
